@@ -1,0 +1,1128 @@
+﻿Log file open, 10/21/16 13:57:10
+LogInit:Display: Running engine for game: ZombiePunks
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(-1785153540) SRandInit(-1785153539).
+LogTaskGraph: Started task graph with 4 named threads and 7 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.075031
+LogInit: Version: 4.12.5-3039270+++UE4+Release-4.12
+LogInit: API Version: 2992821
+LogInit: Net Version: 3039270
+LogDevObjectVersion: Number of dev versions registered: 13
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 3
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 1
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 2
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 6
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 2
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 0
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogInit: Compiled (64-bit): Jul  6 2016 09:09:46
+LogInit: Compiled with Visual C++: 19.00.23026.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.12
+LogInit: Command line: -EpicPortal 
+LogInit: Base directory: C:/Program Files/Epic Games/4.12/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Using libcurl 7.41.0
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with WinSSL
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2016.10.21-20.57.10:560][  0]LogInit: Selected Device Profile: [Windows]
+[2016.10.21-20.57.10:560][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2016.10.21-20.57.10:568][  0]LogInit: Computer: AI241LAB0202P20
+[2016.10.21-20.57.10:568][  0]LogInit: User: student
+[2016.10.21-20.57.10:568][  0]LogInit: CPU Page size=65536, Cores=4
+[2016.10.21-20.57.10:568][  0]LogInit: High frequency timer resolution =2.604218 MHz
+[2016.10.21-20.57.10:568][  0]LogMemory: Memory total: Physical=12.0GB (12GB approx)
+[2016.10.21-20.57.10:568][  0]LogMemory: Platform Memory Stats for Windows
+[2016.10.21-20.57.10:568][  0]LogMemory: Process Physical Memory: 190.02 MB used, 190.02 MB peak
+[2016.10.21-20.57.10:568][  0]LogMemory: Process Virtual Memory: 195.88 MB used, 195.88 MB peak
+[2016.10.21-20.57.10:568][  0]LogMemory: Physical Memory: 6021.45 MB used, 12271.22 MB total
+[2016.10.21-20.57.10:568][  0]LogMemory: Virtual Memory: 521.99 MB used, 8388608.00 MB total
+[2016.10.21-20.57.10:603][  0]LogTextLocalizationManager: No specific translations for ('en-US') exist, so ('en') translations will be used.
+[2016.10.21-20.57.11:117][  0]LogD3D11RHI: D3D11 adapters:
+[2016.10.21-20.57.11:148][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 960' (Feature Level 11_0)
+[2016.10.21-20.57.11:148][  0]LogD3D11RHI:       4010/0/5879 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2016.10.21-20.57.11:148][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2016.10.21-20.57.11:162][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2016.10.21-20.57.11:163][  0]LogD3D11RHI:     GPU DeviceId: 0x1401 (for the marketing name, search the web for "GPU Device Id")
+[2016.10.21-20.57.11:163][  0]LogWindows: EnumDisplayDevices:
+[2016.10.21-20.57.11:164][  0]LogWindows:    0. 'NVIDIA GeForce GTX 960' (P:1 D:1)
+[2016.10.21-20.57.11:165][  0]LogWindows:    1. 'NVIDIA GeForce GTX 960' (P:0 D:0)
+[2016.10.21-20.57.11:166][  0]LogWindows:    2. 'NVIDIA GeForce GTX 960' (P:0 D:0)
+[2016.10.21-20.57.11:167][  0]LogWindows:    3. 'NVIDIA GeForce GTX 960' (P:0 D:0)
+[2016.10.21-20.57.11:168][  0]LogWindows:    4. 'RDPDD Chained DD' (P:0 D:0)
+[2016.10.21-20.57.11:169][  0]LogWindows:    5. 'RDP Encoder Mirror Driver' (P:0 D:0)
+[2016.10.21-20.57.11:170][  0]LogWindows:    6. 'RDP Reflector Display Driver' (P:0 D:0)
+[2016.10.21-20.57.11:170][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:4 
+[2016.10.21-20.57.11:170][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 960
+[2016.10.21-20.57.11:171][  0]LogD3D11RHI:   Driver Version: 368.39 (internal:10.18.13.6839, unified:368.39)
+[2016.10.21-20.57.11:171][  0]LogD3D11RHI:      Driver Date: 6-2-2016
+[2016.10.21-20.57.11:171][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2016.10.21-20.57.11:188][  0]LogD3D11RHI: Async texture creation enabled
+[2016.10.21-20.57.11:208][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2016.10.21-20.57.11:208][  0]LogShaderCompilers: Guid format shader working directory is 2 characters bigger than the processId version (G:/smithKylie_PROJECTS/ZombiePunks/ZombiePunks/Intermediate/Shaders/WorkingDirectory/7460/).
+[2016.10.21-20.57.11:208][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/student/AppData/Local/Temp/UnrealShaderWorkingDir/A12341504CCD01E81C1F72AC87A873E7/'.
+[2016.10.21-20.57.11:209][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2016.10.21-20.57.12:426][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2016.10.21-20.57.12:438][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2016.10.21-20.57.12:451][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2016.10.21-20.57.12:463][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2016.10.21-20.57.12:475][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2016.10.21-20.57.12:485][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2016.10.21-20.57.12:496][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2016.10.21-20.57.12:507][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2016.10.21-20.57.12:518][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2016.10.21-20.57.12:530][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2016.10.21-20.57.12:541][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2016.10.21-20.57.12:563][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2016.10.21-20.57.12:563][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2016.10.21-20.57.12:564][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2016.10.21-20.57.12:588][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2016.10.21-20.57.12:598][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2016.10.21-20.57.12:610][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2016.10.21-20.57.12:621][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2016.10.21-20.57.12:632][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2016.10.21-20.57.12:632][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2016.10.21-20.57.12:708][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2016.10.21-20.57.12:782][  0]LogDerivedDataCache: Loaded boot cache 0.07s 48MB C:/Users/student/AppData/Local/UnrealEngine/4.12/DerivedDataCache/Boot.ddc.
+[2016.10.21-20.57.12:782][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/student/AppData/Local/UnrealEngine/4.12/DerivedDataCache/Boot.ddc
+[2016.10.21-20.57.12:782][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file G:/smithKylie_PROJECTS/ZombiePunks/ZombiePunks/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2016.10.21-20.57.12:782][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2016.10.21-20.57.12:782][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file G:/smithKylie_PROJECTS/ZombiePunks/ZombiePunks/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2016.10.21-20.57.12:782][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2016.10.21-20.57.12:807][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2016.10.21-20.57.12:818][  0]LogDerivedDataCache: Using Local data cache path C:/Users/student/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2016.10.21-20.57.13:056][  0]LogInit: Selected Device Profile: [Windows]
+[2016.10.21-20.57.13:057][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2016.10.21-20.57.13:269][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2016.10.21-20.57.13:269][  0]LogMeshUtilities: No automatic mesh merging module available
+[2016.10.21-20.57.13:269][  0]LogMeshUtilities: No distributed automatic mesh merging module available
+[2016.10.21-20.57.13:588][  0]LogAssetRegistry: FAssetRegistry took 0.0195 seconds to start up
+[2016.10.21-20.57.13:617][  0]LogPackageLocalizationCache: Processed 3 localized package path(s) for 2 prioritized culture(s) in 0.026506 seconds
+[2016.10.21-20.57.13:625][  0]LogUObjectArray: 28739 objects as part of root set at end of initial load.
+[2016.10.21-20.57.13:625][  0]LogUObjectAllocator: 5855624 out of 0 bytes used by permanent object pool.
+[2016.10.21-20.57.13:625][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2016.10.21-20.57.13:632][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2016.10.21-20.57.13:853][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2016.10.21-20.57.13:853][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2016.10.21-20.57.14:736][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2016.10.21-20.57.14:966][  0]SourceControl: Info Source control is disabled
+[2016.10.21-20.57.14:967][  0]SourceControl: Info Source control is disabled
+[2016.10.21-20.57.14:974][  0]SourceControl: Info Source control is disabled
+[2016.10.21-20.57.14:981][  0]SourceControl: Info Source control is disabled
+[2016.10.21-20.57.15:181][  0]LogEngine: Initializing Engine...
+[2016.10.21-20.57.15:182][  0]LogHMD: SteamVR failed to initialize.  Err: 110
+[2016.10.21-20.57.15:182][  0]LogHMD: SteamVR failed to initialize.  Err: 110
+[2016.10.21-20.57.15:371][  0]LogAIModule: Creating AISystem for world NewWorld
+[2016.10.21-20.57.15:375][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.10.21-20.57.15:399][  0]LogInit: FAudioDevice initialized.
+[2016.10.21-20.57.15:445][  0]LogDerivedDataCache: Saved boot cache 0.05s 48MB C:/Users/student/AppData/Local/UnrealEngine/4.12/DerivedDataCache/Boot.ddc.
+[2016.10.21-20.57.15:458][  0]LogInit: Texture streaming: Enabled
+[2016.10.21-20.57.15:478][  0]LogInit: Transaction tracking system initialized
+[2016.10.21-20.57.15:500][  0]BlueprintLog: New page: Editor Load
+[2016.10.21-20.57.15:669][  0]LocalizationService: Info Localization service is disabled
+[2016.10.21-20.57.15:756][  0]LogConsoleResponse:Display: 
+[2016.10.21-20.57.15:880][  0]LogCook:Display: Max memory allowance for cook 8192mb
+[2016.10.21-20.57.15:880][  0]LogCook:Display: Mobile HDR setting 1
+[2016.10.21-20.57.15:975][  0]LogFileCache: Scanning file cache for directory 'G:/smithKylie_PROJECTS/ZombiePunks/ZombiePunks/Content/' took 0.01s
+[2016.10.21-20.57.15:975][  0]SourceControl: Info Source control is disabled
+[2016.10.21-20.57.15:975][  0]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.10.21-20.57.15:976][  0]LightingResults: New page: Lighting Build
+[2016.10.21-20.57.15:978][  0]MapCheck: New page: Map Check
+[2016.10.21-20.57.15:979][  0]LightingResults: New page: Lighting Build
+[2016.10.21-20.57.16:343][  0]LogAIModule: Creating AISystem for world Untitled_1
+[2016.10.21-20.57.16:348][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.10.21-20.57.16:354][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.10.21-20.57.16:398][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 43.658ms to complete.
+[2016.10.21-20.57.16:398][  0]LogFileHelpers: Loading map 'Template_Default' took 0.423
+[2016.10.21-20.57.16:526][  0]LogCollectionManager: Loaded 0 collections in 0.001497 seconds
+[2016.10.21-20.57.16:562][  0]LogFileCache: Scanning file cache for directory 'G:/smithKylie_PROJECTS/ZombiePunks/ZombiePunks/Saved/Collections/' took 0.01s
+[2016.10.21-20.57.16:562][  0]LogFileCache: Scanning file cache for directory 'G:/smithKylie_PROJECTS/ZombiePunks/ZombiePunks/Content/Developers/student/Collections/' took 0.01s
+[2016.10.21-20.57.16:563][  0]LogFileCache: Scanning file cache for directory 'G:/smithKylie_PROJECTS/ZombiePunks/ZombiePunks/Content/Collections/' took 0.01s
+[2016.10.21-20.57.16:563][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000003 seconds
+[2016.10.21-20.57.16:574][  0]LogContentBrowser: Native class hierarchy populated in 0.0116 seconds. Added 2047 classes and 369 folders.
+[2016.10.21-20.57.16:578][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2016.10.21-20.57.16:578][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2016.10.21-20.57.16:579][  0]LogContentBrowser: Native class hierarchy updated for 'GameplayTags' in 0.0005 seconds. Added 12 classes and 0 folders.
+[2016.10.21-20.57.16:583][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2016.10.21-20.57.16:621][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2016.10.21-20.57.16:625][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2016.10.21-20.57.16:642][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2016.10.21-20.57.16:687][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
+[2016.10.21-20.57.16:687][  0]LogLoad: Full Startup: 6.74 seconds (BP compile: 0.05 seconds)
+[2016.10.21-20.57.16:687][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2016.10.21-20.57.16:687][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2016.10.21-20.57.16:697][  0]LogOcInput: OculusInput pre-init called
+[2016.10.21-20.57.16:718][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2016.10.21-20.57.16:930][  0]LogRenderer: Reallocating scene render targets to support 1208x576 (Frame:2).
+[2016.10.21-20.57.17:112][  2]LogAssetRegistry: Asset discovery search completed in 3.5438 seconds
+[2016.10.21-20.57.17:112][  2]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2016.10.21-20.57.17:112][  2]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000026 seconds (updated 0 objects)
+[2016.10.21-21.02.34:091][185]LightingResults: New page: Lighting Build
+[2016.10.21-21.02.34:091][185]MapCheck: New page: Map Check
+[2016.10.21-21.02.34:091][185]LightingResults: New page: Lighting Build
+[2016.10.21-21.02.34:116][185]LogAIModule: Creating AISystem for world NewWorld
+[2016.10.21-21.02.34:120][185]LoadErrors: New page: New Map
+[2016.10.21-21.03.22:020][401]LogSavePackage: Save=10.51ms
+[2016.10.21-21.03.22:020][401]LogSavePackage: Moving 'G:/smithKylie_PROJECTS/ZombiePunks/ZombiePunks/Saved/CompanyScreenLevelDF0B6412476F2E41209D998C7D97EE4C.tmp' to 'G:/smithKylie_PROJECTS/ZombiePunks/ZombiePunks/Content/OpeningSequence/CompanyScreenLevel.umap'
+[2016.10.21-21.03.22:020][401]LogSavePackage:Display: Finished SavePackage G:/smithKylie_PROJECTS/ZombiePunks/ZombiePunks/Content/OpeningSequence/CompanyScreenLevel.umap
+[2016.10.21-21.03.22:038][401]LogFileHelpers: Saving map 'CompanyScreenLevel' took 0.341
+[2016.10.21-21.09.59:644][  9]Cmd: UpdateLandscapeSetup
+[2016.10.21-21.10.52:057][474]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0011 seconds. Added 111 classes and 0 folders.
+[2016.10.21-21.10.52:942][474]LogTexture:Display: Building textures: TilePatine_N (BC5)
+[2016.10.21-21.10.53:016][474]LogTexture:Display: Building textures: TilePatine_D (AutoDXT)
+[2016.10.21-21.12.19:772][177]LogEnum:Warning: In asset 'None', there is an enum property of type 'GameStateEnum' with an invalid value of 'GameStateEnum::NewEnumerator0'
+[2016.10.21-21.12.20:083][213]LogEnum:Warning: In asset 'None', there is an enum property of type 'GameStateEnum' with an invalid value of 'GameStateEnum::NewEnumerator1'
+[2016.10.21-21.12.20:311][239]LogEnum:Warning: In asset 'None', there is an enum property of type 'GameStateEnum' with an invalid value of 'GameStateEnum::NewEnumerator2'
+[2016.10.21-21.12.20:496][260]LogEnum:Warning: In asset 'None', there is an enum property of type 'GameStateEnum' with an invalid value of 'GameStateEnum::NewEnumerator3'
+[2016.10.21-21.13.14:545][793]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/GameStateEnum" FILE="G:/smithKylie_PROJECTS/ZombiePunks/ZombiePunks/Content/GameStateEnum.uasset" SILENT=true
+[2016.10.21-21.13.14:551][793]LogSavePackage: Save=1.14ms
+[2016.10.21-21.13.14:551][793]LogSavePackage: Moving 'G:/smithKylie_PROJECTS/ZombiePunks/ZombiePunks/Saved/GameStateEnumDD5832E242A95BA7EE3E07BA6E6FD479.tmp' to 'G:/smithKylie_PROJECTS/ZombiePunks/ZombiePunks/Content/GameStateEnum.uasset'
+[2016.10.21-21.13.14:552][793]LogSavePackage:Display: Finished SavePackage G:/smithKylie_PROJECTS/ZombiePunks/ZombiePunks/Content/GameStateEnum.uasset
+[2016.10.21-21.13.16:501][967]LogSavePackage: Save=8.50ms
+[2016.10.21-21.13.16:501][967]LogSavePackage: Moving 'G:/smithKylie_PROJECTS/ZombiePunks/ZombiePunks/Saved/CompanyScreenLevel_Auto1540D0B0941D33079611770963CE476B7.tmp' to 'G:/smithKylie_PROJECTS/ZombiePunks/ZombiePunks/Saved/Autosaves/Game/OpeningSequence/CompanyScreenLevel_Auto1.umap'
+[2016.10.21-21.13.16:501][967]LogSavePackage:Display: Finished SavePackage G:/smithKylie_PROJECTS/ZombiePunks/ZombiePunks/Saved/Autosaves/Game/OpeningSequence/CompanyScreenLevel_Auto1.umap
+[2016.10.21-21.13.16:502][967]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/OpeningSequence/CompanyScreenLevel' took 0.045
+[2016.10.21-21.13.16:502][967]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.045
+[2016.10.21-21.13.16:504][967]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/ZombiePunks-GameMode] ([1] browsable assets)...
+[2016.10.21-21.13.16:504][967]OBJ SavePackage: Finished generating thumbnails for package [/Game/ZombiePunks-GameMode]
+[2016.10.21-21.13.16:504][967]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ZombiePunks-GameMode" FILE="G:/smithKylie_PROJECTS/ZombiePunks/ZombiePunks/Saved/Autosaves/Game/ZombiePunks-GameMode_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2016.10.21-21.13.16:515][967]LogSavePackage: Save=10.54ms
+[2016.10.21-21.13.16:515][967]LogSavePackage: Moving 'G:/smithKylie_PROJECTS/ZombiePunks/ZombiePunks/Saved/ZombiePunks-GameMode_Auto1D0104EFF428C22C5DAAE6C9E24EF1FED.tmp' to 'G:/smithKylie_PROJECTS/ZombiePunks/ZombiePunks/Saved/Autosaves/Game/ZombiePunks-GameMode_Auto1.uasset'
+[2016.10.21-21.13.16:515][967]LogSavePackage:Display: Finished SavePackage G:/smithKylie_PROJECTS/ZombiePunks/ZombiePunks/Saved/Autosaves/Game/ZombiePunks-GameMode_Auto1.uasset
+[2016.10.21-21.13.16:516][967]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/ZombiePunks-GameState] ([1] browsable assets)...
+[2016.10.21-21.13.16:516][967]OBJ SavePackage: Finished generating thumbnails for package [/Game/ZombiePunks-GameState]
+[2016.10.21-21.13.16:516][967]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ZombiePunks-GameState" FILE="G:/smithKylie_PROJECTS/ZombiePunks/ZombiePunks/Saved/Autosaves/Game/ZombiePunks-GameState_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2016.10.21-21.13.16:526][967]LogSavePackage: Save=9.56ms
+[2016.10.21-21.13.16:526][967]LogSavePackage: Moving 'G:/smithKylie_PROJECTS/ZombiePunks/ZombiePunks/Saved/ZombiePunks-GameState_Auto194A6AAD74D7EF55CD7B2288C99F6C8AF.tmp' to 'G:/smithKylie_PROJECTS/ZombiePunks/ZombiePunks/Saved/Autosaves/Game/ZombiePunks-GameState_Auto1.uasset'
+[2016.10.21-21.13.16:526][967]LogSavePackage:Display: Finished SavePackage G:/smithKylie_PROJECTS/ZombiePunks/ZombiePunks/Saved/Autosaves/Game/ZombiePunks-GameState_Auto1.uasset
+[2016.10.21-21.13.16:526][967]LogFileHelpers: Auto-saving content packages took 0.023
+[2016.10.21-21.20.31:283][883]LogEditorTransaction: Undo Move Node
+[2016.10.21-21.20.56:037][526]BlueprintLog: New page: Compile ZombiePunks-GameState
+[2016.10.21-21.20.56:214][526]BlueprintEditorCompileResults: Info [1426.19] Compile of ZombiePunks-GameState successful! [in 175 ms] (/Game/ZombiePunks-GameState.ZombiePunks-GameState)
+[2016.10.21-21.20.57:160][583]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ZombiePunks-GameState" FILE="G:/smithKylie_PROJECTS/ZombiePunks/ZombiePunks/Content/ZombiePunks-GameState.uasset" SILENT=true
+[2016.10.21-21.20.57:178][583]LogSavePackage: Save=17.70ms
+[2016.10.21-21.20.57:178][583]LogSavePackage: Moving 'G:/smithKylie_PROJECTS/ZombiePunks/ZombiePunks/Saved/ZombiePunks-GameStateE32E00594E8F151390842A8D4086D298.tmp' to 'G:/smithKylie_PROJECTS/ZombiePunks/ZombiePunks/Content/ZombiePunks-GameState.uasset'
+[2016.10.21-21.20.57:179][583]LogSavePackage:Display: Finished SavePackage G:/smithKylie_PROJECTS/ZombiePunks/ZombiePunks/Content/ZombiePunks-GameState.uasset
+[2016.10.21-21.21.40:111][721]LogSavePackage: Save=8.40ms
+[2016.10.21-21.21.40:111][721]LogSavePackage: Moving 'G:/smithKylie_PROJECTS/ZombiePunks/ZombiePunks/Saved/CompanyScreenLevelE95D7E564BBB31A6FCD4119A52EF8511.tmp' to 'G:/smithKylie_PROJECTS/ZombiePunks/ZombiePunks/Content/OpeningSequence/CompanyScreenLevel.umap'
+[2016.10.21-21.21.40:112][721]LogSavePackage:Display: Finished SavePackage G:/smithKylie_PROJECTS/ZombiePunks/ZombiePunks/Content/OpeningSequence/CompanyScreenLevel.umap
+[2016.10.21-21.21.51:988][410]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ZombiePunks-GameMode" FILE="G:/smithKylie_PROJECTS/ZombiePunks/ZombiePunks/Content/ZombiePunks-GameMode.uasset" SILENT=true
+[2016.10.21-21.21.52:005][410]LogSavePackage: Save=10.86ms
+[2016.10.21-21.21.52:005][410]LogSavePackage: Moving 'G:/smithKylie_PROJECTS/ZombiePunks/ZombiePunks/Saved/ZombiePunks-GameMode3A524CFB4197B05CAC320D97C4D51791.tmp' to 'G:/smithKylie_PROJECTS/ZombiePunks/ZombiePunks/Content/ZombiePunks-GameMode.uasset'
+[2016.10.21-21.21.52:005][410]LogSavePackage:Display: Finished SavePackage G:/smithKylie_PROJECTS/ZombiePunks/ZombiePunks/Content/ZombiePunks-GameMode.uasset
+[2016.10.21-21.28.53:112][757]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 G:/smithKylie_gameConcepts/CompanyScreen_1024x1024.png)
+[2016.10.21-21.28.53:198][757]LogTexture:Display: Building textures: CompanyScreen_1024x1024 (AutoDXT)
+[2016.10.21-21.31.40:639][552]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/OpeningSequence/CompanyScreenLevel' took 0.023
+[2016.10.21-21.31.40:641][552]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/OpeningSequence/CompanyScreen_1024x1024] ([1] browsable assets)...
+[2016.10.21-21.31.40:657][552]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/OpeningSequence/CompanyScreen_1024x1024.CompanyScreen_1024x1024]
+[2016.10.21-21.31.40:657][552]OBJ SavePackage: Finished generating thumbnails for package [/Game/OpeningSequence/CompanyScreen_1024x1024]
+[2016.10.21-21.31.40:671][552]LogSavePackage: Save=13.29ms
+[2016.10.21-21.31.40:671][552]LogSavePackage: Moving 'G:/smithKylie_PROJECTS/ZombiePunks/ZombiePunks/Saved/CompanyScreen_1024x1024_Auto2AA4A703C4177AB4E99524CAC125AF89F.tmp' to 'G:/smithKylie_PROJECTS/ZombiePunks/ZombiePunks/Saved/Autosaves/Game/OpeningSequence/CompanyScreen_1024x1024_Auto2.uasset'
+[2016.10.21-21.31.40:671][552]LogSavePackage:Display: Finished SavePackage G:/smithKylie_PROJECTS/ZombiePunks/ZombiePunks/Saved/Autosaves/Game/OpeningSequence/CompanyScreen_1024x1024_Auto2.uasset
+[2016.10.21-21.31.40:671][552]LogFileHelpers: Auto-saving content packages took 0.031
+[2016.10.21-21.31.50:273][581]LogContentBrowser: Native class hierarchy updated for 'TextureEditor' in 0.0005 seconds. Added 1 classes and 2 folders.
+[2016.10.21-21.37.12:226][403]BlueprintLog: New page: Compile CompanyScreenBP
+[2016.10.21-21.37.12:360][403]BlueprintEditorCompileResults: Info [2402.28] Compile of CompanyScreenBP successful! [in 133 ms] (/Game/OpeningSequence/CompanyScreenBP.CompanyScreenBP)
+[2016.10.21-21.37.13:507][448]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/OpeningSequence/CompanyScreenBP" FILE="G:/smithKylie_PROJECTS/ZombiePunks/ZombiePunks/Content/OpeningSequence/CompanyScreenBP.uasset" SILENT=true
+[2016.10.21-21.37.13:521][448]LogSavePackage: Save=7.39ms
+[2016.10.21-21.37.13:521][448]LogSavePackage: Moving 'G:/smithKylie_PROJECTS/ZombiePunks/ZombiePunks/Saved/CompanyScreenBP393B455944C2F420D57FD88A2EBA5052.tmp' to 'G:/smithKylie_PROJECTS/ZombiePunks/ZombiePunks/Content/OpeningSequence/CompanyScreenBP.uasset'
+[2016.10.21-21.37.13:522][448]LogSavePackage:Display: Finished SavePackage G:/smithKylie_PROJECTS/ZombiePunks/ZombiePunks/Content/OpeningSequence/CompanyScreenBP.uasset
+[2016.10.21-21.37.20:245][989]LogContentBrowser: Native class hierarchy updated for 'WorldBrowser' in 0.0005 seconds. Added 1 classes and 3 folders.
+[2016.10.21-21.41.41:507][392]LogSavePackage: Save=91.10ms
+[2016.10.21-21.41.41:507][392]LogSavePackage: Moving 'G:/smithKylie_PROJECTS/ZombiePunks/ZombiePunks/Saved/CompanyScreenLevel_Auto3FD31DCE046B4EED23F4432A51D845F0E.tmp' to 'G:/smithKylie_PROJECTS/ZombiePunks/ZombiePunks/Saved/Autosaves/Game/OpeningSequence/CompanyScreenLevel_Auto3.umap'
+[2016.10.21-21.41.41:508][392]LogSavePackage:Display: Finished SavePackage G:/smithKylie_PROJECTS/ZombiePunks/ZombiePunks/Saved/Autosaves/Game/OpeningSequence/CompanyScreenLevel_Auto3.umap
+[2016.10.21-21.41.41:509][392]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/OpeningSequence/CompanyScreenLevel' took 0.121
+[2016.10.21-21.41.41:509][392]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.121
+[2016.10.21-21.43.15:771][219]BlueprintLog: New page: Compile CompanyScreenLevel
+[2016.10.21-21.43.15:872][219]BlueprintEditorCompileResults: Info [2765.77] Compile of PersistentLevel.CompanyScreenLevel successful! [in 101 ms] (/Game/OpeningSequence/CompanyScreenLevel.CompanyScreenLevel:PersistentLevel.CompanyScreenLevel)
+[2016.10.21-21.46.03:233][561]BlueprintLog: New page: Compile CompanyScreenBP
+[2016.10.21-21.46.03:362][561]BlueprintEditorCompileResults: Info [2933.25] Compile of CompanyScreenBP successful! [in 129 ms] (/Game/OpeningSequence/CompanyScreenBP.CompanyScreenBP)
+[2016.10.21-21.46.04:267][593]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/OpeningSequence/CompanyScreenBP" FILE="G:/smithKylie_PROJECTS/ZombiePunks/ZombiePunks/Content/OpeningSequence/CompanyScreenBP.uasset" SILENT=true
+[2016.10.21-21.46.04:277][593]LogSavePackage: Save=8.88ms
+[2016.10.21-21.46.04:277][593]LogSavePackage: Moving 'G:/smithKylie_PROJECTS/ZombiePunks/ZombiePunks/Saved/CompanyScreenBP0A7CF6694E3AD23F7C4F65B9834A9FD7.tmp' to 'G:/smithKylie_PROJECTS/ZombiePunks/ZombiePunks/Content/OpeningSequence/CompanyScreenBP.uasset'
+[2016.10.21-21.46.04:278][593]LogSavePackage:Display: Finished SavePackage G:/smithKylie_PROJECTS/ZombiePunks/ZombiePunks/Content/OpeningSequence/CompanyScreenBP.uasset
+[2016.10.21-21.49.59:054][818]BlueprintLog: New page: Compile CompanyScreenBP
+[2016.10.21-21.49.59:173][818]BlueprintEditorCompileResults: Info [3169.04] Compile of CompanyScreenBP successful! [in 119 ms] (/Game/OpeningSequence/CompanyScreenBP.CompanyScreenBP)
+[2016.10.21-21.49.59:711][848]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/OpeningSequence/CompanyScreenBP" FILE="G:/smithKylie_PROJECTS/ZombiePunks/ZombiePunks/Content/OpeningSequence/CompanyScreenBP.uasset" SILENT=true
+[2016.10.21-21.49.59:730][848]LogSavePackage: Save=18.58ms
+[2016.10.21-21.49.59:731][848]LogSavePackage: Moving 'G:/smithKylie_PROJECTS/ZombiePunks/ZombiePunks/Saved/CompanyScreenBP2F66700B420BA8C9D874288BFAB875C7.tmp' to 'G:/smithKylie_PROJECTS/ZombiePunks/ZombiePunks/Content/OpeningSequence/CompanyScreenBP.uasset'
+[2016.10.21-21.49.59:731][848]LogSavePackage:Display: Finished SavePackage G:/smithKylie_PROJECTS/ZombiePunks/ZombiePunks/Content/OpeningSequence/CompanyScreenBP.uasset
+[2016.10.21-21.50.12:333][193]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/OpeningSequence/CompanyScreenBP" FILE="G:/smithKylie_PROJECTS/ZombiePunks/ZombiePunks/Content/OpeningSequence/CompanyScreenBP.uasset" SILENT=true
+[2016.10.21-21.50.12:352][193]LogSavePackage: Save=17.92ms
+[2016.10.21-21.50.12:352][193]LogSavePackage: Moving 'G:/smithKylie_PROJECTS/ZombiePunks/ZombiePunks/Saved/CompanyScreenBPD50CE367443368ED088F5789A63B9A12.tmp' to 'G:/smithKylie_PROJECTS/ZombiePunks/ZombiePunks/Content/OpeningSequence/CompanyScreenBP.uasset'
+[2016.10.21-21.50.12:352][193]LogSavePackage:Display: Finished SavePackage G:/smithKylie_PROJECTS/ZombiePunks/ZombiePunks/Content/OpeningSequence/CompanyScreenBP.uasset
+[2016.10.21-21.50.17:574][619]LogSavePackage: Save=88.63ms
+[2016.10.21-21.50.17:574][619]LogSavePackage: Moving 'G:/smithKylie_PROJECTS/ZombiePunks/ZombiePunks/Saved/CompanyScreenLevel27BB432A447649C13B3B42AA60565362.tmp' to 'G:/smithKylie_PROJECTS/ZombiePunks/ZombiePunks/Content/OpeningSequence/CompanyScreenLevel.umap'
+[2016.10.21-21.50.17:574][619]LogSavePackage:Display: Finished SavePackage G:/smithKylie_PROJECTS/ZombiePunks/ZombiePunks/Content/OpeningSequence/CompanyScreenLevel.umap
+[2016.10.21-21.50.17:584][619]LogFileHelpers: Saving map 'CompanyScreenLevel' took 0.172
+[2016.10.21-21.50.17:607][619]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/OpeningSequence/CompanyScreen_1024x1024" FILE="G:/smithKylie_PROJECTS/ZombiePunks/ZombiePunks/Content/OpeningSequence/CompanyScreen_1024x1024.uasset" SILENT=true
+[2016.10.21-21.50.17:806][619]LogSavePackage: Save=198.24ms
+[2016.10.21-21.50.17:806][619]LogSavePackage: Moving 'G:/smithKylie_PROJECTS/ZombiePunks/ZombiePunks/Saved/CompanyScreen_1024x1024749D620F4387449566C69999B4CA920F.tmp' to 'G:/smithKylie_PROJECTS/ZombiePunks/ZombiePunks/Content/OpeningSequence/CompanyScreen_1024x1024.uasset'
+[2016.10.21-21.50.17:807][619]LogSavePackage:Display: Finished SavePackage G:/smithKylie_PROJECTS/ZombiePunks/ZombiePunks/Content/OpeningSequence/CompanyScreen_1024x1024.uasset
+[2016.10.21-21.50.26:771][960]LogSavePackage: Save=87.79ms
+[2016.10.21-21.50.26:771][960]LogSavePackage: Moving 'G:/smithKylie_PROJECTS/ZombiePunks/ZombiePunks/Saved/CompanyScreenLevel0E58F1734D649857F5BF5D85B3FCA0CC.tmp' to 'G:/smithKylie_PROJECTS/ZombiePunks/ZombiePunks/Content/OpeningSequence/CompanyScreenLevel.umap'
+[2016.10.21-21.50.26:771][960]LogSavePackage:Display: Finished SavePackage G:/smithKylie_PROJECTS/ZombiePunks/ZombiePunks/Content/OpeningSequence/CompanyScreenLevel.umap
+[2016.10.21-21.55.15:561][182]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 G:/smithKylie_gameConcepts/TitleScreen_1024x1024.png)
+[2016.10.21-21.55.15:608][182]LogTexture:Display: Building textures: TitleScreen_1024x1024 (AutoDXT)
+[2016.10.21-22.29.02:781][577]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 G:/smithKylie_gameConcepts/TitleScreen_1024x1024.png)
+[2016.10.21-22.29.02:860][577]LogTexture:Display: Building textures: TitleScreen_1024x1024 (AutoDXT)
+[2016.10.21-22.29.24:348][289]LightingResults: New page: Lighting Build
+[2016.10.21-22.29.24:348][289]MapCheck: New page: Map Check
+[2016.10.21-22.29.24:348][289]LightingResults: New page: Lighting Build
+[2016.10.21-22.29.24:369][289]LogAIModule: Creating AISystem for world NewWorld
+[2016.10.21-22.29.24:437][289]LoadErrors: New page: New Map
+[2016.10.21-22.29.34:949][645]LogSavePackage: Save=9.09ms
+[2016.10.21-22.29.34:949][645]LogSavePackage: Moving 'G:/smithKylie_PROJECTS/ZombiePunks/ZombiePunks/Saved/TitleScreeLevelDFC3E65342354063629B76BBD8C5FF39.tmp' to 'G:/smithKylie_PROJECTS/ZombiePunks/ZombiePunks/Content/OpeningSequence/TitleScreeLevel.umap'
+[2016.10.21-22.29.34:950][645]LogSavePackage:Display: Finished SavePackage G:/smithKylie_PROJECTS/ZombiePunks/ZombiePunks/Content/OpeningSequence/TitleScreeLevel.umap
+[2016.10.21-22.29.34:961][645]LogFileHelpers: Saving map 'TitleScreeLevel' took 0.145
+[2016.10.21-22.29.51:149][ 13]LogSavePackage: Save=9.12ms
+[2016.10.21-22.29.51:149][ 13]LogSavePackage: Moving 'G:/smithKylie_PROJECTS/ZombiePunks/ZombiePunks/Saved/TitleScreenLevelC9F339E040E745AED7834D8136F01C17.tmp' to 'G:/smithKylie_PROJECTS/ZombiePunks/ZombiePunks/Content/OpeningSequence/TitleScreenLevel.umap'
+[2016.10.21-22.29.51:149][ 13]LogSavePackage:Display: Finished SavePackage G:/smithKylie_PROJECTS/ZombiePunks/ZombiePunks/Content/OpeningSequence/TitleScreenLevel.umap
+[2016.10.21-22.29.51:160][ 13]LogFileHelpers: Saving map 'TitleScreenLevel' took 0.091
+[2016.10.21-22.29.53:359][189]LogSavePackage: Save=8.52ms
+[2016.10.21-22.29.53:359][189]LogSavePackage: Moving 'G:/smithKylie_PROJECTS/ZombiePunks/ZombiePunks/Saved/TitleScreenLevel42A603F044777D4EE006E2B96CEE6DD9.tmp' to 'G:/smithKylie_PROJECTS/ZombiePunks/ZombiePunks/Content/OpeningSequence/TitleScreenLevel.umap'
+[2016.10.21-22.29.53:360][189]LogSavePackage:Display: Finished SavePackage G:/smithKylie_PROJECTS/ZombiePunks/ZombiePunks/Content/OpeningSequence/TitleScreenLevel.umap
+[2016.10.21-22.31.30:649][446]BlueprintLog: New page: Compile TitleScreenBP
+[2016.10.21-22.31.30:773][446]BlueprintEditorCompileResults: Info [5660.58] Compile of TitleScreenBP successful! [in 123 ms] (/Game/OpeningSequence/TitleScreenBP.TitleScreenBP)
+[2016.10.21-22.31.31:757][482]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/OpeningSequence/TitleScreenBP" FILE="G:/smithKylie_PROJECTS/ZombiePunks/ZombiePunks/Content/OpeningSequence/TitleScreenBP.uasset" SILENT=true
+[2016.10.21-22.31.31:765][482]LogSavePackage: Save=7.08ms
+[2016.10.21-22.31.31:765][482]LogSavePackage: Moving 'G:/smithKylie_PROJECTS/ZombiePunks/ZombiePunks/Saved/TitleScreenBP83A512A145E9653BBC3D01817EB9D38F.tmp' to 'G:/smithKylie_PROJECTS/ZombiePunks/ZombiePunks/Content/OpeningSequence/TitleScreenBP.uasset'
+[2016.10.21-22.31.31:765][482]LogSavePackage:Display: Finished SavePackage G:/smithKylie_PROJECTS/ZombiePunks/ZombiePunks/Content/OpeningSequence/TitleScreenBP.uasset
+[2016.10.21-22.31.43:684][ 67]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/OpeningSequence/TitleScreen_1024x1024" FILE="G:/smithKylie_PROJECTS/ZombiePunks/ZombiePunks/Content/OpeningSequence/TitleScreen_1024x1024.uasset" SILENT=true
+[2016.10.21-22.31.43:887][ 67]LogSavePackage: Save=202.48ms
+[2016.10.21-22.31.43:887][ 67]LogSavePackage: Moving 'G:/smithKylie_PROJECTS/ZombiePunks/ZombiePunks/Saved/TitleScreen_1024x10249F741800435BBFE922FCDCA73E6C155C.tmp' to 'G:/smithKylie_PROJECTS/ZombiePunks/ZombiePunks/Content/OpeningSequence/TitleScreen_1024x1024.uasset'
+[2016.10.21-22.31.43:888][ 67]LogSavePackage:Display: Finished SavePackage G:/smithKylie_PROJECTS/ZombiePunks/ZombiePunks/Content/OpeningSequence/TitleScreen_1024x1024.uasset
+[2016.10.21-22.31.43:902][ 67]Cmd: MAP LOAD FILE="G:/smithKylie_PROJECTS/ZombiePunks/ZombiePunks/Content/OpeningSequence/TitleScreenLevel.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.10.21-22.31.43:902][ 67]LightingResults: New page: Lighting Build
+[2016.10.21-22.31.43:903][ 67]LoadErrors: New page: Loading map: TitleScreenLevel.umap
+[2016.10.21-22.31.43:903][ 67]MapCheck: New page: Map Check
+[2016.10.21-22.31.43:903][ 67]LightingResults: New page: Lighting Build
+[2016.10.21-22.31.43:926][ 67]LogAIModule: Creating AISystem for world TitleScreenLevel
+[2016.10.21-22.31.43:991][ 67]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.10.21-22.31.44:003][ 67]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.10.21-22.31.44:056][ 67]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 53.032ms to complete.
+[2016.10.21-22.31.44:057][ 67]LogFileHelpers: Loading map 'TitleScreenLevel' took 0.156
+[2016.10.21-22.32.24:196][316]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2016.10.21-22.32.55:141][575]BlueprintLog: New page: Compile TitleScreenLevel
+[2016.10.21-22.32.55:246][575]BlueprintEditorCompileResults: Info [5745.05] Compile of PersistentLevel.TitleScreenLevel successful! [in 104 ms] (/Game/OpeningSequence/TitleScreenLevel.TitleScreenLevel:PersistentLevel.TitleScreenLevel)
+[2016.10.21-22.34.06:520][624]BlueprintLog: New page: Compile TitleScreenBP
+[2016.10.21-22.34.06:650][624]BlueprintEditorCompileResults: Info [5816.44] Compile of TitleScreenBP successful! [in 129 ms] (/Game/OpeningSequence/TitleScreenBP.TitleScreenBP)
+[2016.10.21-22.34.07:681][665]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/OpeningSequence/TitleScreenBP" FILE="G:/smithKylie_PROJECTS/ZombiePunks/ZombiePunks/Content/OpeningSequence/TitleScreenBP.uasset" SILENT=true
+[2016.10.21-22.34.07:691][665]LogSavePackage: Save=9.36ms
+[2016.10.21-22.34.07:691][665]LogSavePackage: Moving 'G:/smithKylie_PROJECTS/ZombiePunks/ZombiePunks/Saved/TitleScreenBP904340D84B0B9B52FE9A4A8E356A6811.tmp' to 'G:/smithKylie_PROJECTS/ZombiePunks/ZombiePunks/Content/OpeningSequence/TitleScreenBP.uasset'
+[2016.10.21-22.34.07:692][665]LogSavePackage:Display: Finished SavePackage G:/smithKylie_PROJECTS/ZombiePunks/ZombiePunks/Content/OpeningSequence/TitleScreenBP.uasset
+[2016.10.21-22.36.37:885][826]BlueprintLog: New page: Compile TitleScreenBP
+[2016.10.21-22.36.38:008][826]BlueprintEditorCompileResults: Info [5967.79] Compile of TitleScreenBP successful! [in 123 ms] (/Game/OpeningSequence/TitleScreenBP.TitleScreenBP)
+[2016.10.21-22.36.38:838][875]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/OpeningSequence/TitleScreenBP" FILE="G:/smithKylie_PROJECTS/ZombiePunks/ZombiePunks/Content/OpeningSequence/TitleScreenBP.uasset" SILENT=true
+[2016.10.21-22.36.38:857][875]LogSavePackage: Save=18.05ms
+[2016.10.21-22.36.38:857][875]LogSavePackage: Moving 'G:/smithKylie_PROJECTS/ZombiePunks/ZombiePunks/Saved/TitleScreenBPCC9782164818C138FE674199B19F8EDD.tmp' to 'G:/smithKylie_PROJECTS/ZombiePunks/ZombiePunks/Content/OpeningSequence/TitleScreenBP.uasset'
+[2016.10.21-22.36.38:858][875]LogSavePackage:Display: Finished SavePackage G:/smithKylie_PROJECTS/ZombiePunks/ZombiePunks/Content/OpeningSequence/TitleScreenBP.uasset
+[2016.10.21-22.36.48:193][705]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/OpeningSequence/TitleScreenLevel.TitleScreenLevel:PersistentLevel' has LevelScriptBlueprint '/Game/OpeningSequence/TitleScreenLevel.TitleScreenLevel:PersistentLevel.TitleScreenLevel' with GeneratedClass '/Game/OpeningSequence/TitleScreenLevel.TitleScreenLevel_C' with ClassGeneratedBy '/Game/OpeningSequence/TitleScreenLevel.TitleScreenLevel:PersistentLevel.TitleScreenLevel'
+[2016.10.21-22.36.48:194][705]BlueprintLog: New page: Pre-Play auto-recompile
+[2016.10.21-22.36.48:194][705]LogPlayLevel: [PlayLevel] Compiling PROTO_BP_AnimBlueprint_0 before play...
+[2016.10.21-22.36.48:267][705]LogPlayLevel: PlayLevel: Blueprint regeneration took 73 ms (1 blueprints)
+[2016.10.21-22.36.48:290][705]PIE: New page: PIE session: TitleScreenLevel (Oct 21, 2016, 7:36:48 AM)
+[2016.10.21-22.36.48:290][705]LogPlayLevel: Creating play world package: /Game/OpeningSequence/UEDPIE_0_TitleScreenLevel
+[2016.10.21-22.36.48:292][705]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001258s)
+[2016.10.21-22.36.48:292][705]LogAIModule: Creating AISystem for world TitleScreenLevel
+[2016.10.21-22.36.48:292][705]LogPlayLevel: PIE: World Init took: (0.000707s)
+[2016.10.21-22.36.48:293][705]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/OpeningSequence/TitleScreenLevel.TitleScreenLevel to /Game/OpeningSequence/UEDPIE_0_TitleScreenLevel.TitleScreenLevel (0.002508s)
+[2016.10.21-22.36.48:314][705]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.10.21-22.36.48:323][705]LogInit: FAudioDevice initialized.
+[2016.10.21-22.36.48:399][705]LogWorld: Game class is 'GameMode'
+[2016.10.21-22.36.48:401][705]LogWorld: Bringing World /Game/OpeningSequence/UEDPIE_0_TitleScreenLevel.TitleScreenLevel up for play (max tick rate 0) at 2016.10.21-15.36.48
+[2016.10.21-22.36.48:401][705]LogWorld: Bringing up level for play took: 0.001075
+[2016.10.21-22.36.48:410][705]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0006 seconds. Added 11 classes and 0 folders.
+[2016.10.21-22.36.48:414][705]PIE: Info Play in editor start time for /Game/OpeningSequence/UEDPIE_0_TitleScreenLevel -0.328
+[2016.10.21-22.36.48:414][705]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/OpeningSequence/TitleScreenLevel.TitleScreenLevel:PersistentLevel' has LevelScriptBlueprint '/Game/OpeningSequence/TitleScreenLevel.TitleScreenLevel:PersistentLevel.TitleScreenLevel' with GeneratedClass '/Game/OpeningSequence/TitleScreenLevel.TitleScreenLevel_C' with ClassGeneratedBy '/Game/OpeningSequence/TitleScreenLevel.TitleScreenLevel:PersistentLevel.TitleScreenLevel'
+[2016.10.21-22.37.00:813][ 74]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/OpeningSequence/TitleScreenLevel.TitleScreenLevel:PersistentLevel' has LevelScriptBlueprint '/Game/OpeningSequence/TitleScreenLevel.TitleScreenLevel:PersistentLevel.TitleScreenLevel' with GeneratedClass '/Game/OpeningSequence/TitleScreenLevel.TitleScreenLevel_C' with ClassGeneratedBy '/Game/OpeningSequence/TitleScreenLevel.TitleScreenLevel:PersistentLevel.TitleScreenLevel'
+[2016.10.21-22.37.00:856][ 74]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/OpeningSequence/TitleScreenLevel.TitleScreenLevel:PersistentLevel' has LevelScriptBlueprint '/Game/OpeningSequence/TitleScreenLevel.TitleScreenLevel:PersistentLevel.TitleScreenLevel' with GeneratedClass '/Game/OpeningSequence/TitleScreenLevel.TitleScreenLevel_C' with ClassGeneratedBy '/Game/OpeningSequence/TitleScreenLevel.TitleScreenLevel:PersistentLevel.TitleScreenLevel'
+[2016.10.21-22.37.02:291][198]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/OpeningSequence/TitleScreenLevel.TitleScreenLevel:PersistentLevel' has LevelScriptBlueprint '/Game/OpeningSequence/TitleScreenLevel.TitleScreenLevel:PersistentLevel.TitleScreenLevel' with GeneratedClass '/Game/OpeningSequence/TitleScreenLevel.TitleScreenLevel_C' with ClassGeneratedBy '/Game/OpeningSequence/TitleScreenLevel.TitleScreenLevel:PersistentLevel.TitleScreenLevel'
+[2016.10.21-22.37.02:292][198]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.10.21-22.37.02:292][198]PIE: New page: PIE session: TitleScreenLevel (Oct 21, 2016, 7:37:02 AM)
+[2016.10.21-22.37.02:292][198]LogPlayLevel: Creating play world package: /Game/OpeningSequence/UEDPIE_0_TitleScreenLevel
+[2016.10.21-22.37.02:294][198]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001812s)
+[2016.10.21-22.37.02:296][198]LogAIModule: Creating AISystem for world TitleScreenLevel
+[2016.10.21-22.37.02:296][198]LogPlayLevel: PIE: World Init took: (0.001758s)
+[2016.10.21-22.37.02:296][198]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/OpeningSequence/TitleScreenLevel.TitleScreenLevel to /Game/OpeningSequence/UEDPIE_0_TitleScreenLevel.TitleScreenLevel (0.003986s)
+[2016.10.21-22.37.02:320][198]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.10.21-22.37.02:326][198]LogInit: FAudioDevice initialized.
+[2016.10.21-22.37.02:387][198]LogWorld: Game class is 'GameMode'
+[2016.10.21-22.37.02:388][198]LogWorld: Bringing World /Game/OpeningSequence/UEDPIE_0_TitleScreenLevel.TitleScreenLevel up for play (max tick rate 0) at 2016.10.21-15.37.02
+[2016.10.21-22.37.02:389][198]LogWorld: Bringing up level for play took: 0.001137
+[2016.10.21-22.37.02:391][198]PIE: Info Play in editor start time for /Game/OpeningSequence/UEDPIE_0_TitleScreenLevel -0.351
+[2016.10.21-22.37.02:391][198]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/OpeningSequence/TitleScreenLevel.TitleScreenLevel:PersistentLevel' has LevelScriptBlueprint '/Game/OpeningSequence/TitleScreenLevel.TitleScreenLevel:PersistentLevel.TitleScreenLevel' with GeneratedClass '/Game/OpeningSequence/TitleScreenLevel.TitleScreenLevel_C' with ClassGeneratedBy '/Game/OpeningSequence/TitleScreenLevel.TitleScreenLevel:PersistentLevel.TitleScreenLevel'
+[2016.10.21-22.37.10:165][ 55]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/OpeningSequence/TitleScreenLevel.TitleScreenLevel:PersistentLevel' has LevelScriptBlueprint '/Game/OpeningSequence/TitleScreenLevel.TitleScreenLevel:PersistentLevel.TitleScreenLevel' with GeneratedClass '/Game/OpeningSequence/TitleScreenLevel.TitleScreenLevel_C' with ClassGeneratedBy '/Game/OpeningSequence/TitleScreenLevel.TitleScreenLevel:PersistentLevel.TitleScreenLevel'
+[2016.10.21-22.37.10:197][ 55]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/OpeningSequence/TitleScreenLevel.TitleScreenLevel:PersistentLevel' has LevelScriptBlueprint '/Game/OpeningSequence/TitleScreenLevel.TitleScreenLevel:PersistentLevel.TitleScreenLevel' with GeneratedClass '/Game/OpeningSequence/TitleScreenLevel.TitleScreenLevel_C' with ClassGeneratedBy '/Game/OpeningSequence/TitleScreenLevel.TitleScreenLevel:PersistentLevel.TitleScreenLevel'
+[2016.10.21-22.37.56:798][ 32]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/OpeningSequence/TitleScreenBP" FILE="G:/smithKylie_PROJECTS/ZombiePunks/ZombiePunks/Content/OpeningSequence/TitleScreenBP.uasset" SILENT=true
+[2016.10.21-22.37.56:817][ 32]LogSavePackage: Save=18.63ms
+[2016.10.21-22.37.56:817][ 32]LogSavePackage: Moving 'G:/smithKylie_PROJECTS/ZombiePunks/ZombiePunks/Saved/TitleScreenBPC78898C24FC38D85CDC09EADC63E5C7A.tmp' to 'G:/smithKylie_PROJECTS/ZombiePunks/ZombiePunks/Content/OpeningSequence/TitleScreenBP.uasset'
+[2016.10.21-22.37.56:818][ 32]LogSavePackage:Display: Finished SavePackage G:/smithKylie_PROJECTS/ZombiePunks/ZombiePunks/Content/OpeningSequence/TitleScreenBP.uasset
+[2016.10.21-22.38.08:242][892]LogSavePackage: Save=89.85ms
+[2016.10.21-22.38.08:242][892]LogSavePackage: Moving 'G:/smithKylie_PROJECTS/ZombiePunks/ZombiePunks/Saved/TitleScreenLevel86E49F8844C3840DD54D2BAD0B072C3F.tmp' to 'G:/smithKylie_PROJECTS/ZombiePunks/ZombiePunks/Content/OpeningSequence/TitleScreenLevel.umap'
+[2016.10.21-22.38.08:243][892]LogSavePackage:Display: Finished SavePackage G:/smithKylie_PROJECTS/ZombiePunks/ZombiePunks/Content/OpeningSequence/TitleScreenLevel.umap
+[2016.10.21-22.38.09:363][980]LogAIModule: Creating AISystem for world CompanyScreenLevel
+[2016.10.21-22.38.09:385][980]Cmd: MAP LOAD FILE="G:/smithKylie_PROJECTS/ZombiePunks/ZombiePunks/Content/OpeningSequence/CompanyScreenLevel.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.10.21-22.38.09:386][980]LightingResults: New page: Lighting Build
+[2016.10.21-22.38.09:386][980]LoadErrors: New page: Loading map: CompanyScreenLevel.umap
+[2016.10.21-22.38.09:387][980]MapCheck: New page: Map Check
+[2016.10.21-22.38.09:387][980]LightingResults: New page: Lighting Build
+[2016.10.21-22.38.09:475][980]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.10.21-22.38.09:484][980]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.10.21-22.38.09:538][980]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 53.501ms to complete.
+[2016.10.21-22.38.09:538][980]LogFileHelpers: Loading map 'CompanyScreenLevel' took 0.153
+[2016.10.21-22.38.12:568][187]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/OpeningSequence/CompanyScreenLevel.CompanyScreenLevel:PersistentLevel' has LevelScriptBlueprint '/Game/OpeningSequence/CompanyScreenLevel.CompanyScreenLevel:PersistentLevel.CompanyScreenLevel' with GeneratedClass '/Game/OpeningSequence/CompanyScreenLevel.CompanyScreenLevel_C' with ClassGeneratedBy '/Game/OpeningSequence/CompanyScreenLevel.CompanyScreenLevel:PersistentLevel.CompanyScreenLevel'
+[2016.10.21-22.38.12:568][187]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.10.21-22.38.12:568][187]PIE: New page: PIE session: CompanyScreenLevel (Oct 21, 2016, 7:38:12 AM)
+[2016.10.21-22.38.12:568][187]LogPlayLevel: Creating play world package: /Game/OpeningSequence/UEDPIE_0_CompanyScreenLevel
+[2016.10.21-22.38.12:569][187]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001273s)
+[2016.10.21-22.38.12:570][187]LogAIModule: Creating AISystem for world CompanyScreenLevel
+[2016.10.21-22.38.12:570][187]LogPlayLevel: PIE: World Init took: (0.000803s)
+[2016.10.21-22.38.12:570][187]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/OpeningSequence/CompanyScreenLevel.CompanyScreenLevel to /Game/OpeningSequence/UEDPIE_0_CompanyScreenLevel.CompanyScreenLevel (0.002318s)
+[2016.10.21-22.38.12:591][187]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.10.21-22.38.12:597][187]LogInit: FAudioDevice initialized.
+[2016.10.21-22.38.12:661][187]LogWorld: Game class is 'ZombiePunks-GameMode_C'
+[2016.10.21-22.38.12:663][187]LogWorld: Bringing World /Game/OpeningSequence/UEDPIE_0_CompanyScreenLevel.CompanyScreenLevel up for play (max tick rate 0) at 2016.10.21-15.38.12
+[2016.10.21-22.38.12:664][187]LogWorld: Bringing up level for play took: 0.001130
+[2016.10.21-22.38.12:666][187]PIE: Info Play in editor start time for /Game/OpeningSequence/UEDPIE_0_CompanyScreenLevel -0.08
+[2016.10.21-22.38.12:666][187]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/OpeningSequence/CompanyScreenLevel.CompanyScreenLevel:PersistentLevel' has LevelScriptBlueprint '/Game/OpeningSequence/CompanyScreenLevel.CompanyScreenLevel:PersistentLevel.CompanyScreenLevel' with GeneratedClass '/Game/OpeningSequence/CompanyScreenLevel.CompanyScreenLevel_C' with ClassGeneratedBy '/Game/OpeningSequence/CompanyScreenLevel.CompanyScreenLevel:PersistentLevel.CompanyScreenLevel'
+[2016.10.21-22.38.20:880][ 89]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/OpeningSequence/CompanyScreenLevel.CompanyScreenLevel:PersistentLevel' has LevelScriptBlueprint '/Game/OpeningSequence/CompanyScreenLevel.CompanyScreenLevel:PersistentLevel.CompanyScreenLevel' with GeneratedClass '/Game/OpeningSequence/CompanyScreenLevel.CompanyScreenLevel_C' with ClassGeneratedBy '/Game/OpeningSequence/CompanyScreenLevel.CompanyScreenLevel:PersistentLevel.CompanyScreenLevel'
+[2016.10.21-22.38.20:911][ 89]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/OpeningSequence/CompanyScreenLevel.CompanyScreenLevel:PersistentLevel' has LevelScriptBlueprint '/Game/OpeningSequence/CompanyScreenLevel.CompanyScreenLevel:PersistentLevel.CompanyScreenLevel' with GeneratedClass '/Game/OpeningSequence/CompanyScreenLevel.CompanyScreenLevel_C' with ClassGeneratedBy '/Game/OpeningSequence/CompanyScreenLevel.CompanyScreenLevel:PersistentLevel.CompanyScreenLevel'
+[2016.10.21-22.38.22:555][225]LogAIModule: Creating AISystem for world TitleScreenLevel
+[2016.10.21-22.38.22:578][225]Cmd: MAP LOAD FILE="G:/smithKylie_PROJECTS/ZombiePunks/ZombiePunks/Content/OpeningSequence/TitleScreenLevel.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.10.21-22.38.22:578][225]LightingResults: New page: Lighting Build
+[2016.10.21-22.38.22:579][225]LoadErrors: New page: Loading map: TitleScreenLevel.umap
+[2016.10.21-22.38.22:580][225]MapCheck: New page: Map Check
+[2016.10.21-22.38.22:580][225]LightingResults: New page: Lighting Build
+[2016.10.21-22.38.22:667][225]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.10.21-22.38.22:677][225]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.10.21-22.38.22:730][225]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 53.383ms to complete.
+[2016.10.21-22.38.22:730][225]LogFileHelpers: Loading map 'TitleScreenLevel' took 0.153
+[2016.10.21-22.39.30:416][796]BlueprintLog: New page: Compile TitleScreenBP
+[2016.10.21-22.39.30:527][796]BlueprintEditorCompileResults: Info [6140.30] Compile of TitleScreenBP successful! [in 110 ms] (/Game/OpeningSequence/TitleScreenBP.TitleScreenBP)
+[2016.10.21-22.39.30:962][814]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/OpeningSequence/TitleScreenBP" FILE="G:/smithKylie_PROJECTS/ZombiePunks/ZombiePunks/Content/OpeningSequence/TitleScreenBP.uasset" SILENT=true
+[2016.10.21-22.39.30:982][814]LogSavePackage: Save=18.45ms
+[2016.10.21-22.39.30:982][814]LogSavePackage: Moving 'G:/smithKylie_PROJECTS/ZombiePunks/ZombiePunks/Saved/TitleScreenBPF7F6376C4B162612E75B9A9B7B41A69E.tmp' to 'G:/smithKylie_PROJECTS/ZombiePunks/ZombiePunks/Content/OpeningSequence/TitleScreenBP.uasset'
+[2016.10.21-22.39.30:983][814]LogSavePackage:Display: Finished SavePackage G:/smithKylie_PROJECTS/ZombiePunks/ZombiePunks/Content/OpeningSequence/TitleScreenBP.uasset
+[2016.10.21-22.39.34:482][ 55]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/OpeningSequence/TitleScreenLevel.TitleScreenLevel:PersistentLevel' has LevelScriptBlueprint '/Game/OpeningSequence/TitleScreenLevel.TitleScreenLevel:PersistentLevel.TitleScreenLevel' with GeneratedClass '/Game/OpeningSequence/TitleScreenLevel.TitleScreenLevel_C' with ClassGeneratedBy '/Game/OpeningSequence/TitleScreenLevel.TitleScreenLevel:PersistentLevel.TitleScreenLevel'
+[2016.10.21-22.39.34:482][ 55]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.10.21-22.39.34:482][ 55]PIE: New page: PIE session: TitleScreenLevel (Oct 21, 2016, 7:39:34 AM)
+[2016.10.21-22.39.34:482][ 55]LogPlayLevel: Creating play world package: /Game/OpeningSequence/UEDPIE_0_TitleScreenLevel
+[2016.10.21-22.39.34:484][ 55]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001337s)
+[2016.10.21-22.39.34:484][ 55]LogAIModule: Creating AISystem for world TitleScreenLevel
+[2016.10.21-22.39.34:484][ 55]LogPlayLevel: PIE: World Init took: (0.000792s)
+[2016.10.21-22.39.34:485][ 55]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/OpeningSequence/TitleScreenLevel.TitleScreenLevel to /Game/OpeningSequence/UEDPIE_0_TitleScreenLevel.TitleScreenLevel (0.002396s)
+[2016.10.21-22.39.34:509][ 55]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.10.21-22.39.34:515][ 55]LogInit: FAudioDevice initialized.
+[2016.10.21-22.39.34:576][ 55]LogWorld: Game class is 'GameMode'
+[2016.10.21-22.39.34:578][ 55]LogWorld: Bringing World /Game/OpeningSequence/UEDPIE_0_TitleScreenLevel.TitleScreenLevel up for play (max tick rate 0) at 2016.10.21-15.39.34
+[2016.10.21-22.39.34:578][ 55]LogWorld: Bringing up level for play took: 0.001171
+[2016.10.21-22.39.34:581][ 55]PIE: Info Play in editor start time for /Game/OpeningSequence/UEDPIE_0_TitleScreenLevel -0.17
+[2016.10.21-22.39.34:581][ 55]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/OpeningSequence/TitleScreenLevel.TitleScreenLevel:PersistentLevel' has LevelScriptBlueprint '/Game/OpeningSequence/TitleScreenLevel.TitleScreenLevel:PersistentLevel.TitleScreenLevel' with GeneratedClass '/Game/OpeningSequence/TitleScreenLevel.TitleScreenLevel_C' with ClassGeneratedBy '/Game/OpeningSequence/TitleScreenLevel.TitleScreenLevel:PersistentLevel.TitleScreenLevel'
+[2016.10.21-22.39.41:958][877]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/OpeningSequence/TitleScreenLevel.TitleScreenLevel:PersistentLevel' has LevelScriptBlueprint '/Game/OpeningSequence/TitleScreenLevel.TitleScreenLevel:PersistentLevel.TitleScreenLevel' with GeneratedClass '/Game/OpeningSequence/TitleScreenLevel.TitleScreenLevel_C' with ClassGeneratedBy '/Game/OpeningSequence/TitleScreenLevel.TitleScreenLevel:PersistentLevel.TitleScreenLevel'
+[2016.10.21-22.39.41:986][877]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/OpeningSequence/TitleScreenLevel.TitleScreenLevel:PersistentLevel' has LevelScriptBlueprint '/Game/OpeningSequence/TitleScreenLevel.TitleScreenLevel:PersistentLevel.TitleScreenLevel' with GeneratedClass '/Game/OpeningSequence/TitleScreenLevel.TitleScreenLevel_C' with ClassGeneratedBy '/Game/OpeningSequence/TitleScreenLevel.TitleScreenLevel:PersistentLevel.TitleScreenLevel'
+[2016.10.21-22.39.51:248][452]BlueprintLog: New page: Compile CompanyScreenBP
+[2016.10.21-22.39.51:362][452]BlueprintEditorCompileResults: Info [6161.14] Compile of CompanyScreenBP successful! [in 113 ms] (/Game/OpeningSequence/CompanyScreenBP.CompanyScreenBP)
+[2016.10.21-22.39.51:839][475]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/OpeningSequence/CompanyScreenBP" FILE="G:/smithKylie_PROJECTS/ZombiePunks/ZombiePunks/Content/OpeningSequence/CompanyScreenBP.uasset" SILENT=true
+[2016.10.21-22.39.51:859][475]LogSavePackage: Save=18.37ms
+[2016.10.21-22.39.51:859][475]LogSavePackage: Moving 'G:/smithKylie_PROJECTS/ZombiePunks/ZombiePunks/Saved/CompanyScreenBP669970C64AEF7EF4F5F1E98A29A08855.tmp' to 'G:/smithKylie_PROJECTS/ZombiePunks/ZombiePunks/Content/OpeningSequence/CompanyScreenBP.uasset'
+[2016.10.21-22.39.51:860][475]LogSavePackage:Display: Finished SavePackage G:/smithKylie_PROJECTS/ZombiePunks/ZombiePunks/Content/OpeningSequence/CompanyScreenBP.uasset
+[2016.10.21-22.40.03:562][972]LogAIModule: Creating AISystem for world CompanyScreenLevel
+[2016.10.21-22.40.03:586][972]Cmd: MAP LOAD FILE="G:/smithKylie_PROJECTS/ZombiePunks/ZombiePunks/Content/OpeningSequence/CompanyScreenLevel.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.10.21-22.40.03:586][972]LightingResults: New page: Lighting Build
+[2016.10.21-22.40.03:587][972]LoadErrors: New page: Loading map: CompanyScreenLevel.umap
+[2016.10.21-22.40.03:587][972]MapCheck: New page: Map Check
+[2016.10.21-22.40.03:588][972]LightingResults: New page: Lighting Build
+[2016.10.21-22.40.03:676][972]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.10.21-22.40.03:686][972]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.10.21-22.40.03:739][972]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 53.34ms to complete.
+[2016.10.21-22.40.03:739][972]LogFileHelpers: Loading map 'CompanyScreenLevel' took 0.154
+[2016.10.21-22.40.04:560][ 31]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/OpeningSequence/CompanyScreenLevel.CompanyScreenLevel:PersistentLevel' has LevelScriptBlueprint '/Game/OpeningSequence/CompanyScreenLevel.CompanyScreenLevel:PersistentLevel.CompanyScreenLevel' with GeneratedClass '/Game/OpeningSequence/CompanyScreenLevel.CompanyScreenLevel_C' with ClassGeneratedBy '/Game/OpeningSequence/CompanyScreenLevel.CompanyScreenLevel:PersistentLevel.CompanyScreenLevel'
+[2016.10.21-22.40.04:560][ 31]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.10.21-22.40.04:560][ 31]PIE: New page: PIE session: CompanyScreenLevel (Oct 21, 2016, 7:40:04 AM)
+[2016.10.21-22.40.04:560][ 31]LogPlayLevel: Creating play world package: /Game/OpeningSequence/UEDPIE_0_CompanyScreenLevel
+[2016.10.21-22.40.04:562][ 31]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001255s)
+[2016.10.21-22.40.04:562][ 31]LogAIModule: Creating AISystem for world CompanyScreenLevel
+[2016.10.21-22.40.04:562][ 31]LogPlayLevel: PIE: World Init took: (0.000761s)
+[2016.10.21-22.40.04:563][ 31]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/OpeningSequence/CompanyScreenLevel.CompanyScreenLevel to /Game/OpeningSequence/UEDPIE_0_CompanyScreenLevel.CompanyScreenLevel (0.002269s)
+[2016.10.21-22.40.04:583][ 31]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.10.21-22.40.04:590][ 31]LogInit: FAudioDevice initialized.
+[2016.10.21-22.40.04:652][ 31]LogWorld: Game class is 'ZombiePunks-GameMode_C'
+[2016.10.21-22.40.04:654][ 31]LogWorld: Bringing World /Game/OpeningSequence/UEDPIE_0_CompanyScreenLevel.CompanyScreenLevel up for play (max tick rate 0) at 2016.10.21-15.40.04
+[2016.10.21-22.40.04:654][ 31]LogWorld: Bringing up level for play took: 0.001123
+[2016.10.21-22.40.04:657][ 31]PIE: Info Play in editor start time for /Game/OpeningSequence/UEDPIE_0_CompanyScreenLevel -0.096
+[2016.10.21-22.40.04:657][ 31]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/OpeningSequence/CompanyScreenLevel.CompanyScreenLevel:PersistentLevel' has LevelScriptBlueprint '/Game/OpeningSequence/CompanyScreenLevel.CompanyScreenLevel:PersistentLevel.CompanyScreenLevel' with GeneratedClass '/Game/OpeningSequence/CompanyScreenLevel.CompanyScreenLevel_C' with ClassGeneratedBy '/Game/OpeningSequence/CompanyScreenLevel.CompanyScreenLevel:PersistentLevel.CompanyScreenLevel'
+[2016.10.21-22.40.19:452][624]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/OpeningSequence/CompanyScreenLevel.CompanyScreenLevel:PersistentLevel' has LevelScriptBlueprint '/Game/OpeningSequence/CompanyScreenLevel.CompanyScreenLevel:PersistentLevel.CompanyScreenLevel' with GeneratedClass '/Game/OpeningSequence/CompanyScreenLevel.CompanyScreenLevel_C' with ClassGeneratedBy '/Game/OpeningSequence/CompanyScreenLevel.CompanyScreenLevel:PersistentLevel.CompanyScreenLevel'
+[2016.10.21-22.40.19:481][624]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/OpeningSequence/CompanyScreenLevel.CompanyScreenLevel:PersistentLevel' has LevelScriptBlueprint '/Game/OpeningSequence/CompanyScreenLevel.CompanyScreenLevel:PersistentLevel.CompanyScreenLevel' with GeneratedClass '/Game/OpeningSequence/CompanyScreenLevel.CompanyScreenLevel_C' with ClassGeneratedBy '/Game/OpeningSequence/CompanyScreenLevel.CompanyScreenLevel:PersistentLevel.CompanyScreenLevel'
+[2016.10.21-22.40.30:100][356]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/OpeningSequence/CompanyScreenBP" FILE="G:/smithKylie_PROJECTS/ZombiePunks/ZombiePunks/Content/OpeningSequence/CompanyScreenBP.uasset" SILENT=true
+[2016.10.21-22.40.30:120][356]LogSavePackage: Save=18.57ms
+[2016.10.21-22.40.30:120][356]LogSavePackage: Moving 'G:/smithKylie_PROJECTS/ZombiePunks/ZombiePunks/Saved/CompanyScreenBP92A4996E4CE4441769A18E800DF453F9.tmp' to 'G:/smithKylie_PROJECTS/ZombiePunks/ZombiePunks/Content/OpeningSequence/CompanyScreenBP.uasset'
+[2016.10.21-22.40.30:120][356]LogSavePackage:Display: Finished SavePackage G:/smithKylie_PROJECTS/ZombiePunks/ZombiePunks/Content/OpeningSequence/CompanyScreenBP.uasset
+[2016.10.21-22.40.33:679][600]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/OpeningSequence/CompanyScreenLevel.CompanyScreenLevel:PersistentLevel' has LevelScriptBlueprint '/Game/OpeningSequence/CompanyScreenLevel.CompanyScreenLevel:PersistentLevel.CompanyScreenLevel' with GeneratedClass '/Game/OpeningSequence/CompanyScreenLevel.CompanyScreenLevel_C' with ClassGeneratedBy '/Game/OpeningSequence/CompanyScreenLevel.CompanyScreenLevel:PersistentLevel.CompanyScreenLevel'
+[2016.10.21-22.40.33:679][600]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.10.21-22.40.33:679][600]PIE: New page: PIE session: CompanyScreenLevel (Oct 21, 2016, 7:40:33 AM)
+[2016.10.21-22.40.33:679][600]LogPlayLevel: Creating play world package: /Game/OpeningSequence/UEDPIE_0_CompanyScreenLevel
+[2016.10.21-22.40.33:682][600]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002140s)
+[2016.10.21-22.40.33:683][600]LogAIModule: Creating AISystem for world CompanyScreenLevel
+[2016.10.21-22.40.33:683][600]LogPlayLevel: PIE: World Init took: (0.001719s)
+[2016.10.21-22.40.33:684][600]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/OpeningSequence/CompanyScreenLevel.CompanyScreenLevel to /Game/OpeningSequence/UEDPIE_0_CompanyScreenLevel.CompanyScreenLevel (0.004455s)
+[2016.10.21-22.40.33:707][600]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.10.21-22.40.33:714][600]LogInit: FAudioDevice initialized.
+[2016.10.21-22.40.33:774][600]LogWorld: Game class is 'ZombiePunks-GameMode_C'
+[2016.10.21-22.40.33:776][600]LogWorld: Bringing World /Game/OpeningSequence/UEDPIE_0_CompanyScreenLevel.CompanyScreenLevel up for play (max tick rate 0) at 2016.10.21-15.40.33
+[2016.10.21-22.40.33:776][600]LogWorld: Bringing up level for play took: 0.001108
+[2016.10.21-22.40.33:778][600]PIE: Info Play in editor start time for /Game/OpeningSequence/UEDPIE_0_CompanyScreenLevel 1.023
+[2016.10.21-22.40.33:779][600]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/OpeningSequence/CompanyScreenLevel.CompanyScreenLevel:PersistentLevel' has LevelScriptBlueprint '/Game/OpeningSequence/CompanyScreenLevel.CompanyScreenLevel:PersistentLevel.CompanyScreenLevel' with GeneratedClass '/Game/OpeningSequence/CompanyScreenLevel.CompanyScreenLevel_C' with ClassGeneratedBy '/Game/OpeningSequence/CompanyScreenLevel.CompanyScreenLevel:PersistentLevel.CompanyScreenLevel'
+[2016.10.21-22.40.45:026][837]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/OpeningSequence/CompanyScreenLevel.CompanyScreenLevel:PersistentLevel' has LevelScriptBlueprint '/Game/OpeningSequence/CompanyScreenLevel.CompanyScreenLevel:PersistentLevel.CompanyScreenLevel' with GeneratedClass '/Game/OpeningSequence/CompanyScreenLevel.CompanyScreenLevel_C' with ClassGeneratedBy '/Game/OpeningSequence/CompanyScreenLevel.CompanyScreenLevel:PersistentLevel.CompanyScreenLevel'
+[2016.10.21-22.40.45:056][837]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/OpeningSequence/CompanyScreenLevel.CompanyScreenLevel:PersistentLevel' has LevelScriptBlueprint '/Game/OpeningSequence/CompanyScreenLevel.CompanyScreenLevel:PersistentLevel.CompanyScreenLevel' with GeneratedClass '/Game/OpeningSequence/CompanyScreenLevel.CompanyScreenLevel_C' with ClassGeneratedBy '/Game/OpeningSequence/CompanyScreenLevel.CompanyScreenLevel:PersistentLevel.CompanyScreenLevel'
+[2016.10.21-22.41.12:386][699]BlueprintLog: New page: Compile ZombiePunks-GameState
+[2016.10.21-22.41.12:496][699]BlueprintEditorCompileResults: Info [6242.26] Compile of ZombiePunks-GameState successful! [in 109 ms] (/Game/ZombiePunks-GameState.ZombiePunks-GameState)
+[2016.10.21-22.41.13:085][727]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ZombiePunks-GameState" FILE="G:/smithKylie_PROJECTS/ZombiePunks/ZombiePunks/Content/ZombiePunks-GameState.uasset" SILENT=true
+[2016.10.21-22.41.13:103][727]LogSavePackage: Save=15.60ms
+[2016.10.21-22.41.13:103][727]LogSavePackage: Moving 'G:/smithKylie_PROJECTS/ZombiePunks/ZombiePunks/Saved/ZombiePunks-GameState6942469C4B75BEA26B00C18676326734.tmp' to 'G:/smithKylie_PROJECTS/ZombiePunks/ZombiePunks/Content/ZombiePunks-GameState.uasset'
+[2016.10.21-22.41.13:104][727]LogSavePackage:Display: Finished SavePackage G:/smithKylie_PROJECTS/ZombiePunks/ZombiePunks/Content/ZombiePunks-GameState.uasset
+[2016.10.21-22.41.18:963][184]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/OpeningSequence/CompanyScreenLevel.CompanyScreenLevel:PersistentLevel' has LevelScriptBlueprint '/Game/OpeningSequence/CompanyScreenLevel.CompanyScreenLevel:PersistentLevel.CompanyScreenLevel' with GeneratedClass '/Game/OpeningSequence/CompanyScreenLevel.CompanyScreenLevel_C' with ClassGeneratedBy '/Game/OpeningSequence/CompanyScreenLevel.CompanyScreenLevel:PersistentLevel.CompanyScreenLevel'
+[2016.10.21-22.41.18:963][184]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.10.21-22.41.18:964][184]PIE: New page: PIE session: CompanyScreenLevel (Oct 21, 2016, 7:41:18 AM)
+[2016.10.21-22.41.18:964][184]LogPlayLevel: Creating play world package: /Game/OpeningSequence/UEDPIE_0_CompanyScreenLevel
+[2016.10.21-22.41.18:966][184]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001828s)
+[2016.10.21-22.41.18:967][184]LogAIModule: Creating AISystem for world CompanyScreenLevel
+[2016.10.21-22.41.18:967][184]LogPlayLevel: PIE: World Init took: (0.001220s)
+[2016.10.21-22.41.18:967][184]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/OpeningSequence/CompanyScreenLevel.CompanyScreenLevel to /Game/OpeningSequence/UEDPIE_0_CompanyScreenLevel.CompanyScreenLevel (0.003411s)
+[2016.10.21-22.41.18:990][184]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.10.21-22.41.18:997][184]LogInit: FAudioDevice initialized.
+[2016.10.21-22.41.19:058][184]LogWorld: Game class is 'ZombiePunks-GameMode_C'
+[2016.10.21-22.41.19:060][184]LogWorld: Bringing World /Game/OpeningSequence/UEDPIE_0_CompanyScreenLevel.CompanyScreenLevel up for play (max tick rate 0) at 2016.10.21-15.41.19
+[2016.10.21-22.41.19:060][184]LogWorld: Bringing up level for play took: 0.001109
+[2016.10.21-22.41.19:063][184]PIE: Info Play in editor start time for /Game/OpeningSequence/UEDPIE_0_CompanyScreenLevel 0.305
+[2016.10.21-22.41.19:063][184]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/OpeningSequence/CompanyScreenLevel.CompanyScreenLevel:PersistentLevel' has LevelScriptBlueprint '/Game/OpeningSequence/CompanyScreenLevel.CompanyScreenLevel:PersistentLevel.CompanyScreenLevel' with GeneratedClass '/Game/OpeningSequence/CompanyScreenLevel.CompanyScreenLevel_C' with ClassGeneratedBy '/Game/OpeningSequence/CompanyScreenLevel.CompanyScreenLevel:PersistentLevel.CompanyScreenLevel'
+[2016.10.21-22.41.31:095][529]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/OpeningSequence/CompanyScreenLevel.CompanyScreenLevel:PersistentLevel' has LevelScriptBlueprint '/Game/OpeningSequence/CompanyScreenLevel.CompanyScreenLevel:PersistentLevel.CompanyScreenLevel' with GeneratedClass '/Game/OpeningSequence/CompanyScreenLevel.CompanyScreenLevel_C' with ClassGeneratedBy '/Game/OpeningSequence/CompanyScreenLevel.CompanyScreenLevel:PersistentLevel.CompanyScreenLevel'
+[2016.10.21-22.41.31:124][529]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/OpeningSequence/CompanyScreenLevel.CompanyScreenLevel:PersistentLevel' has LevelScriptBlueprint '/Game/OpeningSequence/CompanyScreenLevel.CompanyScreenLevel:PersistentLevel.CompanyScreenLevel' with GeneratedClass '/Game/OpeningSequence/CompanyScreenLevel.CompanyScreenLevel_C' with ClassGeneratedBy '/Game/OpeningSequence/CompanyScreenLevel.CompanyScreenLevel:PersistentLevel.CompanyScreenLevel'
+[2016.10.21-22.41.33:212][731]LogRenderer: Reallocating scene render targets to support 1220x576 (Frame:122012).
+[2016.10.21-22.41.33:259][732]LogRenderer: Reallocating scene render targets to support 1224x576 (Frame:122014).
+[2016.10.21-22.42.06:413][435]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/OpeningSequence/CompanyScreenLevel.CompanyScreenLevel:PersistentLevel' has LevelScriptBlueprint '/Game/OpeningSequence/CompanyScreenLevel.CompanyScreenLevel:PersistentLevel.CompanyScreenLevel' with GeneratedClass '/Game/OpeningSequence/CompanyScreenLevel.CompanyScreenLevel_C' with ClassGeneratedBy '/Game/OpeningSequence/CompanyScreenLevel.CompanyScreenLevel:PersistentLevel.CompanyScreenLevel'
+[2016.10.21-22.42.06:413][435]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.10.21-22.42.06:413][435]PIE: New page: PIE session: CompanyScreenLevel (Oct 21, 2016, 7:42:06 AM)
+[2016.10.21-22.42.06:414][435]LogPlayLevel: Creating play world package: /Game/OpeningSequence/UEDPIE_0_CompanyScreenLevel
+[2016.10.21-22.42.06:415][435]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001204s)
+[2016.10.21-22.42.06:415][435]LogAIModule: Creating AISystem for world CompanyScreenLevel
+[2016.10.21-22.42.06:416][435]LogPlayLevel: PIE: World Init took: (0.000757s)
+[2016.10.21-22.42.06:416][435]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/OpeningSequence/CompanyScreenLevel.CompanyScreenLevel to /Game/OpeningSequence/UEDPIE_0_CompanyScreenLevel.CompanyScreenLevel (0.002243s)
+[2016.10.21-22.42.06:439][435]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.10.21-22.42.06:445][435]LogInit: FAudioDevice initialized.
+[2016.10.21-22.42.06:510][435]LogWorld: Game class is 'ZombiePunks-GameMode_C'
+[2016.10.21-22.42.06:511][435]LogWorld: Bringing World /Game/OpeningSequence/UEDPIE_0_CompanyScreenLevel.CompanyScreenLevel up for play (max tick rate 0) at 2016.10.21-15.42.06
+[2016.10.21-22.42.06:512][435]LogWorld: Bringing up level for play took: 0.001160
+[2016.10.21-22.42.06:514][435]PIE: Info Play in editor start time for /Game/OpeningSequence/UEDPIE_0_CompanyScreenLevel -0.247
+[2016.10.21-22.42.06:514][435]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/OpeningSequence/CompanyScreenLevel.CompanyScreenLevel:PersistentLevel' has LevelScriptBlueprint '/Game/OpeningSequence/CompanyScreenLevel.CompanyScreenLevel:PersistentLevel.CompanyScreenLevel' with GeneratedClass '/Game/OpeningSequence/CompanyScreenLevel.CompanyScreenLevel_C' with ClassGeneratedBy '/Game/OpeningSequence/CompanyScreenLevel.CompanyScreenLevel:PersistentLevel.CompanyScreenLevel'
+[2016.10.21-22.42.15:737][435]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/OpeningSequence/CompanyScreenLevel.CompanyScreenLevel:PersistentLevel' has LevelScriptBlueprint '/Game/OpeningSequence/CompanyScreenLevel.CompanyScreenLevel:PersistentLevel.CompanyScreenLevel' with GeneratedClass '/Game/OpeningSequence/CompanyScreenLevel.CompanyScreenLevel_C' with ClassGeneratedBy '/Game/OpeningSequence/CompanyScreenLevel.CompanyScreenLevel:PersistentLevel.CompanyScreenLevel'
+[2016.10.21-22.42.15:766][435]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/OpeningSequence/CompanyScreenLevel.CompanyScreenLevel:PersistentLevel' has LevelScriptBlueprint '/Game/OpeningSequence/CompanyScreenLevel.CompanyScreenLevel:PersistentLevel.CompanyScreenLevel' with GeneratedClass '/Game/OpeningSequence/CompanyScreenLevel.CompanyScreenLevel_C' with ClassGeneratedBy '/Game/OpeningSequence/CompanyScreenLevel.CompanyScreenLevel:PersistentLevel.CompanyScreenLevel'
+[2016.10.21-22.42.17:563][550]Cmd: MAP LOAD FILE="G:/smithKylie_PROJECTS/ZombiePunks/ZombiePunks/Content/OpeningSequence/CompanyScreenLevel.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.10.21-22.42.17:563][550]LightingResults: New page: Lighting Build
+[2016.10.21-22.42.17:563][550]LoadErrors: New page: Loading map: CompanyScreenLevel.umap
+[2016.10.21-22.42.17:564][550]MapCheck: New page: Map Check
+[2016.10.21-22.42.17:564][550]LightingResults: New page: Lighting Build
+[2016.10.21-22.42.17:603][550]LogAIModule: Creating AISystem for world CompanyScreenLevel
+[2016.10.21-22.42.17:670][550]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.10.21-22.42.17:680][550]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.10.21-22.42.17:734][550]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 53.592ms to complete.
+[2016.10.21-22.42.17:734][550]LogFileHelpers: Loading map 'CompanyScreenLevel' took 0.173
+[2016.10.21-22.42.20:556][698]LogAIModule: Creating AISystem for world TitleScreenLevel
+[2016.10.21-22.42.20:580][698]Cmd: MAP LOAD FILE="G:/smithKylie_PROJECTS/ZombiePunks/ZombiePunks/Content/OpeningSequence/TitleScreenLevel.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.10.21-22.42.20:580][698]LightingResults: New page: Lighting Build
+[2016.10.21-22.42.20:581][698]LoadErrors: New page: Loading map: TitleScreenLevel.umap
+[2016.10.21-22.42.20:582][698]MapCheck: New page: Map Check
+[2016.10.21-22.42.20:582][698]LightingResults: New page: Lighting Build
+[2016.10.21-22.42.20:669][698]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.10.21-22.42.20:678][698]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.10.21-22.42.20:731][698]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 53.184ms to complete.
+[2016.10.21-22.42.20:731][698]LogFileHelpers: Loading map 'TitleScreenLevel' took 0.152
+[2016.10.21-22.42.22:007][799]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2016.10.21-22.42.25:582][ 44]LogAIModule: Creating AISystem for world CompanyScreenLevel
+[2016.10.21-22.42.25:607][ 44]Cmd: MAP LOAD FILE="G:/smithKylie_PROJECTS/ZombiePunks/ZombiePunks/Content/OpeningSequence/CompanyScreenLevel.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.10.21-22.42.25:607][ 44]LightingResults: New page: Lighting Build
+[2016.10.21-22.42.25:608][ 44]LoadErrors: New page: Loading map: CompanyScreenLevel.umap
+[2016.10.21-22.42.25:608][ 44]MapCheck: New page: Map Check
+[2016.10.21-22.42.25:608][ 44]LightingResults: New page: Lighting Build
+[2016.10.21-22.42.25:696][ 44]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.10.21-22.42.25:706][ 44]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.10.21-22.42.25:759][ 44]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 53.876ms to complete.
+[2016.10.21-22.42.25:760][ 44]LogFileHelpers: Loading map 'CompanyScreenLevel' took 0.154
+[2016.10.21-22.42.26:981][153]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2016.10.21-22.42.30:967][499]LogAIModule: Creating AISystem for world TitleScreenLevel
+[2016.10.21-22.42.30:991][499]Cmd: MAP LOAD FILE="G:/smithKylie_PROJECTS/ZombiePunks/ZombiePunks/Content/OpeningSequence/TitleScreenLevel.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.10.21-22.42.30:991][499]LightingResults: New page: Lighting Build
+[2016.10.21-22.42.30:992][499]LoadErrors: New page: Loading map: TitleScreenLevel.umap
+[2016.10.21-22.42.30:993][499]MapCheck: New page: Map Check
+[2016.10.21-22.42.30:993][499]LightingResults: New page: Lighting Build
+[2016.10.21-22.42.31:082][499]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.10.21-22.42.31:091][499]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.10.21-22.42.31:145][499]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 53.278ms to complete.
+[2016.10.21-22.42.31:145][499]LogFileHelpers: Loading map 'TitleScreenLevel' took 0.155
+[2016.10.21-22.42.31:864][566]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2016.10.21-22.42.32:863][636]Cmd: UpdateLandscapeSetup
+[2016.10.21-22.42.40:537][233]LogSavePackage: Save=92.65ms
+[2016.10.21-22.42.40:537][233]LogSavePackage: Moving 'G:/smithKylie_PROJECTS/ZombiePunks/ZombiePunks/Saved/TitleScreenLevel702CAF4C4EF84A4FAAA5A9874F224019.tmp' to 'G:/smithKylie_PROJECTS/ZombiePunks/ZombiePunks/Content/OpeningSequence/TitleScreenLevel.umap'
+[2016.10.21-22.42.40:538][233]LogSavePackage:Display: Finished SavePackage G:/smithKylie_PROJECTS/ZombiePunks/ZombiePunks/Content/OpeningSequence/TitleScreenLevel.umap
+[2016.10.21-22.42.42:774][375]LogAIModule: Creating AISystem for world CompanyScreenLevel
+[2016.10.21-22.42.45:484][375]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ZombiePunks-GameMode" FILE="G:/smithKylie_PROJECTS/ZombiePunks/ZombiePunks/Content/ZombiePunks-GameMode.uasset" SILENT=true
+[2016.10.21-22.42.45:496][375]LogSavePackage: Save=10.49ms
+[2016.10.21-22.42.45:496][375]LogSavePackage: Moving 'G:/smithKylie_PROJECTS/ZombiePunks/ZombiePunks/Saved/ZombiePunks-GameMode55168E2540E3E45363C4D49A4403505B.tmp' to 'G:/smithKylie_PROJECTS/ZombiePunks/ZombiePunks/Content/ZombiePunks-GameMode.uasset'
+[2016.10.21-22.42.45:497][375]LogSavePackage:Display: Finished SavePackage G:/smithKylie_PROJECTS/ZombiePunks/ZombiePunks/Content/ZombiePunks-GameMode.uasset
+[2016.10.21-22.42.45:499][375]Cmd: MAP LOAD FILE="G:/smithKylie_PROJECTS/ZombiePunks/ZombiePunks/Content/OpeningSequence/CompanyScreenLevel.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.10.21-22.42.45:499][375]LightingResults: New page: Lighting Build
+[2016.10.21-22.42.45:499][375]LoadErrors: New page: Loading map: CompanyScreenLevel.umap
+[2016.10.21-22.42.45:500][375]MapCheck: New page: Map Check
+[2016.10.21-22.42.45:500][375]LightingResults: New page: Lighting Build
+[2016.10.21-22.42.45:587][375]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.10.21-22.42.45:597][375]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.10.21-22.42.45:651][375]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 53.769ms to complete.
+[2016.10.21-22.42.45:651][375]LogFileHelpers: Loading map 'CompanyScreenLevel' took 0.154
+[2016.10.21-22.42.46:714][470]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/OpeningSequence/CompanyScreenLevel.CompanyScreenLevel:PersistentLevel' has LevelScriptBlueprint '/Game/OpeningSequence/CompanyScreenLevel.CompanyScreenLevel:PersistentLevel.CompanyScreenLevel' with GeneratedClass '/Game/OpeningSequence/CompanyScreenLevel.CompanyScreenLevel_C' with ClassGeneratedBy '/Game/OpeningSequence/CompanyScreenLevel.CompanyScreenLevel:PersistentLevel.CompanyScreenLevel'
+[2016.10.21-22.42.46:714][470]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.10.21-22.42.46:714][470]PIE: New page: PIE session: CompanyScreenLevel (Oct 21, 2016, 7:42:46 AM)
+[2016.10.21-22.42.46:714][470]LogPlayLevel: Creating play world package: /Game/OpeningSequence/UEDPIE_0_CompanyScreenLevel
+[2016.10.21-22.42.46:715][470]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001191s)
+[2016.10.21-22.42.46:716][470]LogAIModule: Creating AISystem for world CompanyScreenLevel
+[2016.10.21-22.42.46:716][470]LogPlayLevel: PIE: World Init took: (0.000764s)
+[2016.10.21-22.42.46:716][470]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/OpeningSequence/CompanyScreenLevel.CompanyScreenLevel to /Game/OpeningSequence/UEDPIE_0_CompanyScreenLevel.CompanyScreenLevel (0.002203s)
+[2016.10.21-22.42.46:737][470]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.10.21-22.42.46:743][470]LogInit: FAudioDevice initialized.
+[2016.10.21-22.42.46:805][470]LogWorld: Game class is 'ZombiePunks-GameMode_C'
+[2016.10.21-22.42.46:807][470]LogWorld: Bringing World /Game/OpeningSequence/UEDPIE_0_CompanyScreenLevel.CompanyScreenLevel up for play (max tick rate 0) at 2016.10.21-15.42.46
+[2016.10.21-22.42.46:807][470]LogWorld: Bringing up level for play took: 0.001101
+[2016.10.21-22.42.46:810][470]PIE: Info Play in editor start time for /Game/OpeningSequence/UEDPIE_0_CompanyScreenLevel 0.045
+[2016.10.21-22.42.46:810][470]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/OpeningSequence/CompanyScreenLevel.CompanyScreenLevel:PersistentLevel' has LevelScriptBlueprint '/Game/OpeningSequence/CompanyScreenLevel.CompanyScreenLevel:PersistentLevel.CompanyScreenLevel' with GeneratedClass '/Game/OpeningSequence/CompanyScreenLevel.CompanyScreenLevel_C' with ClassGeneratedBy '/Game/OpeningSequence/CompanyScreenLevel.CompanyScreenLevel:PersistentLevel.CompanyScreenLevel'
+[2016.10.21-22.43.00:604][975]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/OpeningSequence/CompanyScreenLevel.CompanyScreenLevel:PersistentLevel' has LevelScriptBlueprint '/Game/OpeningSequence/CompanyScreenLevel.CompanyScreenLevel:PersistentLevel.CompanyScreenLevel' with GeneratedClass '/Game/OpeningSequence/CompanyScreenLevel.CompanyScreenLevel_C' with ClassGeneratedBy '/Game/OpeningSequence/CompanyScreenLevel.CompanyScreenLevel:PersistentLevel.CompanyScreenLevel'
+[2016.10.21-22.43.00:634][975]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/OpeningSequence/CompanyScreenLevel.CompanyScreenLevel:PersistentLevel' has LevelScriptBlueprint '/Game/OpeningSequence/CompanyScreenLevel.CompanyScreenLevel:PersistentLevel.CompanyScreenLevel' with GeneratedClass '/Game/OpeningSequence/CompanyScreenLevel.CompanyScreenLevel_C' with ClassGeneratedBy '/Game/OpeningSequence/CompanyScreenLevel.CompanyScreenLevel:PersistentLevel.CompanyScreenLevel'
+[2016.10.21-22.43.04:326][243]LogAIModule: Creating AISystem for world TitleScreenLevel
+[2016.10.21-22.43.04:351][243]Cmd: MAP LOAD FILE="G:/smithKylie_PROJECTS/ZombiePunks/ZombiePunks/Content/OpeningSequence/TitleScreenLevel.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.10.21-22.43.04:351][243]LightingResults: New page: Lighting Build
+[2016.10.21-22.43.04:351][243]LoadErrors: New page: Loading map: TitleScreenLevel.umap
+[2016.10.21-22.43.04:352][243]MapCheck: New page: Map Check
+[2016.10.21-22.43.04:352][243]LightingResults: New page: Lighting Build
+[2016.10.21-22.43.04:439][243]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.10.21-22.43.04:448][243]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.10.21-22.43.04:502][243]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 53.367ms to complete.
+[2016.10.21-22.43.04:502][243]LogFileHelpers: Loading map 'TitleScreenLevel' took 0.153
+[2016.10.21-22.43.07:049][381]LogAIModule: Creating AISystem for world CompanyScreenLevel
+[2016.10.21-22.43.07:075][381]Cmd: MAP LOAD FILE="G:/smithKylie_PROJECTS/ZombiePunks/ZombiePunks/Content/OpeningSequence/CompanyScreenLevel.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.10.21-22.43.07:076][381]LightingResults: New page: Lighting Build
+[2016.10.21-22.43.07:076][381]LoadErrors: New page: Loading map: CompanyScreenLevel.umap
+[2016.10.21-22.43.07:077][381]MapCheck: New page: Map Check
+[2016.10.21-22.43.07:077][381]LightingResults: New page: Lighting Build
+[2016.10.21-22.43.07:164][381]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.10.21-22.43.07:174][381]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.10.21-22.43.07:227][381]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 53.372ms to complete.
+[2016.10.21-22.43.07:227][381]LogFileHelpers: Loading map 'CompanyScreenLevel' took 0.153
+[2016.10.21-22.43.09:002][545]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2016.10.21-22.43.30:725][270]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/OpeningSequence/CompanyScreenBP" FILE="G:/smithKylie_PROJECTS/ZombiePunks/ZombiePunks/Content/OpeningSequence/CompanyScreenBP.uasset" SILENT=true
+[2016.10.21-22.43.30:746][270]LogSavePackage: Save=19.54ms
+[2016.10.21-22.43.30:746][270]LogSavePackage: Moving 'G:/smithKylie_PROJECTS/ZombiePunks/ZombiePunks/Saved/CompanyScreenBPE6EBAEC342DBE7634087F8BDCDEB4E23.tmp' to 'G:/smithKylie_PROJECTS/ZombiePunks/ZombiePunks/Content/OpeningSequence/CompanyScreenBP.uasset'
+[2016.10.21-22.43.30:746][270]LogSavePackage:Display: Finished SavePackage G:/smithKylie_PROJECTS/ZombiePunks/ZombiePunks/Content/OpeningSequence/CompanyScreenBP.uasset
+[2016.10.21-22.44.02:356][347]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/OpeningSequence/TitleScreenBP" FILE="G:/smithKylie_PROJECTS/ZombiePunks/ZombiePunks/Content/OpeningSequence/TitleScreenBP.uasset" SILENT=true
+[2016.10.21-22.44.02:376][347]LogSavePackage: Save=19.17ms
+[2016.10.21-22.44.02:376][347]LogSavePackage: Moving 'G:/smithKylie_PROJECTS/ZombiePunks/ZombiePunks/Saved/TitleScreenBP103AF98147482988614CF4922B158C8D.tmp' to 'G:/smithKylie_PROJECTS/ZombiePunks/ZombiePunks/Content/OpeningSequence/TitleScreenBP.uasset'
+[2016.10.21-22.44.02:377][347]LogSavePackage:Display: Finished SavePackage G:/smithKylie_PROJECTS/ZombiePunks/ZombiePunks/Content/OpeningSequence/TitleScreenBP.uasset
+[2016.10.21-22.44.55:001][558]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/OpeningSequence/CompanyScreenBP" FILE="G:/smithKylie_PROJECTS/ZombiePunks/ZombiePunks/Content/OpeningSequence/CompanyScreenBP.uasset" SILENT=true
+[2016.10.21-22.44.55:023][558]LogSavePackage: Save=19.86ms
+[2016.10.21-22.44.55:023][558]LogSavePackage: Moving 'G:/smithKylie_PROJECTS/ZombiePunks/ZombiePunks/Saved/CompanyScreenBP6D1566A64C5AEE955D0B719863A7A9B1.tmp' to 'G:/smithKylie_PROJECTS/ZombiePunks/ZombiePunks/Content/OpeningSequence/CompanyScreenBP.uasset'
+[2016.10.21-22.44.55:023][558]LogSavePackage:Display: Finished SavePackage G:/smithKylie_PROJECTS/ZombiePunks/ZombiePunks/Content/OpeningSequence/CompanyScreenBP.uasset
+[2016.10.21-22.44.57:431][653]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/OpeningSequence/TitleScreenBP" FILE="G:/smithKylie_PROJECTS/ZombiePunks/ZombiePunks/Content/OpeningSequence/TitleScreenBP.uasset" SILENT=true
+[2016.10.21-22.44.57:452][653]LogSavePackage: Save=19.79ms
+[2016.10.21-22.44.57:452][653]LogSavePackage: Moving 'G:/smithKylie_PROJECTS/ZombiePunks/ZombiePunks/Saved/TitleScreenBP08B263AA4DC1A41CC667D181D3CF4A1E.tmp' to 'G:/smithKylie_PROJECTS/ZombiePunks/ZombiePunks/Content/OpeningSequence/TitleScreenBP.uasset'
+[2016.10.21-22.44.57:453][653]LogSavePackage:Display: Finished SavePackage G:/smithKylie_PROJECTS/ZombiePunks/ZombiePunks/Content/OpeningSequence/TitleScreenBP.uasset
+[2016.10.21-22.45.06:710][266]LogRenderer: Reallocating scene render targets to support 1224x672 (Frame:135557).
+[2016.10.21-22.45.21:879][537]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/GameStateEnum" FILE="G:/smithKylie_PROJECTS/ZombiePunks/ZombiePunks/Content/GameStateEnum.uasset" SILENT=true
+[2016.10.21-22.45.21:883][537]LogSavePackage: Save=1.28ms
+[2016.10.21-22.45.21:884][537]LogSavePackage: Moving 'G:/smithKylie_PROJECTS/ZombiePunks/ZombiePunks/Saved/GameStateEnum8F340DC44E5A816ACFF723B10C94452E.tmp' to 'G:/smithKylie_PROJECTS/ZombiePunks/ZombiePunks/Content/GameStateEnum.uasset'
+[2016.10.21-22.45.21:884][537]LogSavePackage:Display: Finished SavePackage G:/smithKylie_PROJECTS/ZombiePunks/ZombiePunks/Content/GameStateEnum.uasset
+[2016.10.21-22.46.08:552][636]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ZombiePunks-GameState" FILE="G:/smithKylie_PROJECTS/ZombiePunks/ZombiePunks/Content/ZombiePunks-GameState.uasset" SILENT=true
+[2016.10.21-22.46.08:569][636]LogSavePackage: Save=15.63ms
+[2016.10.21-22.46.08:569][636]LogSavePackage: Moving 'G:/smithKylie_PROJECTS/ZombiePunks/ZombiePunks/Saved/ZombiePunks-GameState0A7AD6234DC52980A196A98D8380D2D9.tmp' to 'G:/smithKylie_PROJECTS/ZombiePunks/ZombiePunks/Content/ZombiePunks-GameState.uasset'
+[2016.10.21-22.46.08:569][636]LogSavePackage:Display: Finished SavePackage G:/smithKylie_PROJECTS/ZombiePunks/ZombiePunks/Content/ZombiePunks-GameState.uasset
+[2016.10.21-22.46.21:079][517]LogAIModule: Creating AISystem for world TitleScreenLevel
+[2016.10.21-22.46.21:116][517]Cmd: MAP LOAD FILE="G:/smithKylie_PROJECTS/ZombiePunks/ZombiePunks/Content/OpeningSequence/TitleScreenLevel.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.10.21-22.46.21:116][517]LightingResults: New page: Lighting Build
+[2016.10.21-22.46.21:117][517]LoadErrors: New page: Loading map: TitleScreenLevel.umap
+[2016.10.21-22.46.21:117][517]MapCheck: New page: Map Check
+[2016.10.21-22.46.21:117][517]LightingResults: New page: Lighting Build
+[2016.10.21-22.46.21:204][517]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.10.21-22.46.21:213][517]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.10.21-22.46.21:267][517]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 53.85ms to complete.
+[2016.10.21-22.46.21:267][517]LogFileHelpers: Loading map 'TitleScreenLevel' took 0.153
+[2016.10.21-22.46.22:482][614]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/OpeningSequence/TitleScreenLevel.TitleScreenLevel:PersistentLevel' has LevelScriptBlueprint '/Game/OpeningSequence/TitleScreenLevel.TitleScreenLevel:PersistentLevel.TitleScreenLevel' with GeneratedClass '/Game/OpeningSequence/TitleScreenLevel.TitleScreenLevel_C' with ClassGeneratedBy '/Game/OpeningSequence/TitleScreenLevel.TitleScreenLevel:PersistentLevel.TitleScreenLevel'
+[2016.10.21-22.46.22:482][614]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.10.21-22.46.22:482][614]PIE: New page: PIE session: TitleScreenLevel (Oct 21, 2016, 7:46:22 AM)
+[2016.10.21-22.46.22:482][614]LogPlayLevel: Creating play world package: /Game/OpeningSequence/UEDPIE_0_TitleScreenLevel
+[2016.10.21-22.46.22:484][614]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001372s)
+[2016.10.21-22.46.22:484][614]LogAIModule: Creating AISystem for world TitleScreenLevel
+[2016.10.21-22.46.22:485][614]LogPlayLevel: PIE: World Init took: (0.000816s)
+[2016.10.21-22.46.22:485][614]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/OpeningSequence/TitleScreenLevel.TitleScreenLevel to /Game/OpeningSequence/UEDPIE_0_TitleScreenLevel.TitleScreenLevel (0.002458s)
+[2016.10.21-22.46.22:506][614]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.10.21-22.46.22:513][614]LogInit: FAudioDevice initialized.
+[2016.10.21-22.46.22:575][614]LogWorld: Game class is 'ZombiePunks-GameMode_C'
+[2016.10.21-22.46.22:577][614]LogWorld: Bringing World /Game/OpeningSequence/UEDPIE_0_TitleScreenLevel.TitleScreenLevel up for play (max tick rate 0) at 2016.10.21-15.46.22
+[2016.10.21-22.46.22:577][614]LogWorld: Bringing up level for play took: 0.001140
+[2016.10.21-22.46.22:580][614]PIE: Info Play in editor start time for /Game/OpeningSequence/UEDPIE_0_TitleScreenLevel -0.197
+[2016.10.21-22.46.22:580][614]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/OpeningSequence/TitleScreenLevel.TitleScreenLevel:PersistentLevel' has LevelScriptBlueprint '/Game/OpeningSequence/TitleScreenLevel.TitleScreenLevel:PersistentLevel.TitleScreenLevel' with GeneratedClass '/Game/OpeningSequence/TitleScreenLevel.TitleScreenLevel_C' with ClassGeneratedBy '/Game/OpeningSequence/TitleScreenLevel.TitleScreenLevel:PersistentLevel.TitleScreenLevel'
+[2016.10.21-22.46.29:909][410]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/OpeningSequence/TitleScreenLevel.TitleScreenLevel:PersistentLevel' has LevelScriptBlueprint '/Game/OpeningSequence/TitleScreenLevel.TitleScreenLevel:PersistentLevel.TitleScreenLevel' with GeneratedClass '/Game/OpeningSequence/TitleScreenLevel.TitleScreenLevel_C' with ClassGeneratedBy '/Game/OpeningSequence/TitleScreenLevel.TitleScreenLevel:PersistentLevel.TitleScreenLevel'
+[2016.10.21-22.46.29:942][410]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/OpeningSequence/TitleScreenLevel.TitleScreenLevel:PersistentLevel' has LevelScriptBlueprint '/Game/OpeningSequence/TitleScreenLevel.TitleScreenLevel:PersistentLevel.TitleScreenLevel' with GeneratedClass '/Game/OpeningSequence/TitleScreenLevel.TitleScreenLevel_C' with ClassGeneratedBy '/Game/OpeningSequence/TitleScreenLevel.TitleScreenLevel:PersistentLevel.TitleScreenLevel'
+[2016.10.21-22.46.31:378][509]LogAIModule: Creating AISystem for world CompanyScreenLevel
+[2016.10.21-22.46.31:402][509]Cmd: MAP LOAD FILE="G:/smithKylie_PROJECTS/ZombiePunks/ZombiePunks/Content/OpeningSequence/CompanyScreenLevel.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.10.21-22.46.31:402][509]LightingResults: New page: Lighting Build
+[2016.10.21-22.46.31:403][509]LoadErrors: New page: Loading map: CompanyScreenLevel.umap
+[2016.10.21-22.46.31:403][509]MapCheck: New page: Map Check
+[2016.10.21-22.46.31:403][509]LightingResults: New page: Lighting Build
+[2016.10.21-22.46.31:490][509]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.10.21-22.46.31:499][509]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.10.21-22.46.31:552][509]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 53.116ms to complete.
+[2016.10.21-22.46.31:552][509]LogFileHelpers: Loading map 'CompanyScreenLevel' took 0.152
+[2016.10.21-22.46.32:432][584]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/OpeningSequence/CompanyScreenLevel.CompanyScreenLevel:PersistentLevel' has LevelScriptBlueprint '/Game/OpeningSequence/CompanyScreenLevel.CompanyScreenLevel:PersistentLevel.CompanyScreenLevel' with GeneratedClass '/Game/OpeningSequence/CompanyScreenLevel.CompanyScreenLevel_C' with ClassGeneratedBy '/Game/OpeningSequence/CompanyScreenLevel.CompanyScreenLevel:PersistentLevel.CompanyScreenLevel'
+[2016.10.21-22.46.32:432][584]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.10.21-22.46.32:432][584]PIE: New page: PIE session: CompanyScreenLevel (Oct 21, 2016, 7:46:32 AM)
+[2016.10.21-22.46.32:433][584]LogPlayLevel: Creating play world package: /Game/OpeningSequence/UEDPIE_0_CompanyScreenLevel
+[2016.10.21-22.46.32:434][584]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001294s)
+[2016.10.21-22.46.32:435][584]LogAIModule: Creating AISystem for world CompanyScreenLevel
+[2016.10.21-22.46.32:435][584]LogPlayLevel: PIE: World Init took: (0.000813s)
+[2016.10.21-22.46.32:435][584]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/OpeningSequence/CompanyScreenLevel.CompanyScreenLevel to /Game/OpeningSequence/UEDPIE_0_CompanyScreenLevel.CompanyScreenLevel (0.002358s)
+[2016.10.21-22.46.32:456][584]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.10.21-22.46.32:462][584]LogInit: FAudioDevice initialized.
+[2016.10.21-22.46.32:523][584]LogWorld: Game class is 'ZombiePunks-GameMode_C'
+[2016.10.21-22.46.32:525][584]LogWorld: Bringing World /Game/OpeningSequence/UEDPIE_0_CompanyScreenLevel.CompanyScreenLevel up for play (max tick rate 0) at 2016.10.21-15.46.32
+[2016.10.21-22.46.32:525][584]LogWorld: Bringing up level for play took: 0.001118
+[2016.10.21-22.46.32:527][584]PIE: Info Play in editor start time for /Game/OpeningSequence/UEDPIE_0_CompanyScreenLevel -0.25
+[2016.10.21-22.46.32:528][584]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/OpeningSequence/CompanyScreenLevel.CompanyScreenLevel:PersistentLevel' has LevelScriptBlueprint '/Game/OpeningSequence/CompanyScreenLevel.CompanyScreenLevel:PersistentLevel.CompanyScreenLevel' with GeneratedClass '/Game/OpeningSequence/CompanyScreenLevel.CompanyScreenLevel_C' with ClassGeneratedBy '/Game/OpeningSequence/CompanyScreenLevel.CompanyScreenLevel:PersistentLevel.CompanyScreenLevel'
+[2016.10.21-22.46.50:072][503]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/OpeningSequence/CompanyScreenLevel.CompanyScreenLevel:PersistentLevel' has LevelScriptBlueprint '/Game/OpeningSequence/CompanyScreenLevel.CompanyScreenLevel:PersistentLevel.CompanyScreenLevel' with GeneratedClass '/Game/OpeningSequence/CompanyScreenLevel.CompanyScreenLevel_C' with ClassGeneratedBy '/Game/OpeningSequence/CompanyScreenLevel.CompanyScreenLevel:PersistentLevel.CompanyScreenLevel'
+[2016.10.21-22.46.50:100][503]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/OpeningSequence/CompanyScreenLevel.CompanyScreenLevel:PersistentLevel' has LevelScriptBlueprint '/Game/OpeningSequence/CompanyScreenLevel.CompanyScreenLevel:PersistentLevel.CompanyScreenLevel' with GeneratedClass '/Game/OpeningSequence/CompanyScreenLevel.CompanyScreenLevel_C' with ClassGeneratedBy '/Game/OpeningSequence/CompanyScreenLevel.CompanyScreenLevel:PersistentLevel.CompanyScreenLevel'
+[2016.10.21-22.46.58:183][182]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/OpeningSequence/CompanyScreenLevel.CompanyScreenLevel:PersistentLevel' has LevelScriptBlueprint '/Game/OpeningSequence/CompanyScreenLevel.CompanyScreenLevel:PersistentLevel.CompanyScreenLevel' with GeneratedClass '/Game/OpeningSequence/CompanyScreenLevel.CompanyScreenLevel_C' with ClassGeneratedBy '/Game/OpeningSequence/CompanyScreenLevel.CompanyScreenLevel:PersistentLevel.CompanyScreenLevel'
+[2016.10.21-22.46.58:183][182]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.10.21-22.46.58:183][182]PIE: New page: PIE session: CompanyScreenLevel (Oct 21, 2016, 7:46:58 AM)
+[2016.10.21-22.46.58:184][182]LogPlayLevel: Creating play world package: /Game/OpeningSequence/UEDPIE_0_CompanyScreenLevel
+[2016.10.21-22.46.58:185][182]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001262s)
+[2016.10.21-22.46.58:186][182]LogAIModule: Creating AISystem for world CompanyScreenLevel
+[2016.10.21-22.46.58:186][182]LogPlayLevel: PIE: World Init took: (0.000828s)
+[2016.10.21-22.46.58:186][182]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/OpeningSequence/CompanyScreenLevel.CompanyScreenLevel to /Game/OpeningSequence/UEDPIE_0_CompanyScreenLevel.CompanyScreenLevel (0.002426s)
+[2016.10.21-22.46.58:207][182]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.10.21-22.46.58:213][182]LogInit: FAudioDevice initialized.
+[2016.10.21-22.46.58:278][182]LogWorld: Game class is 'ZombiePunks-GameMode_C'
+[2016.10.21-22.46.58:280][182]LogWorld: Bringing World /Game/OpeningSequence/UEDPIE_0_CompanyScreenLevel.CompanyScreenLevel up for play (max tick rate 0) at 2016.10.21-15.46.58
+[2016.10.21-22.46.58:280][182]LogWorld: Bringing up level for play took: 0.001133
+[2016.10.21-22.46.58:282][182]PIE: Info Play in editor start time for /Game/OpeningSequence/UEDPIE_0_CompanyScreenLevel -0.497
+[2016.10.21-22.46.58:283][182]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/OpeningSequence/CompanyScreenLevel.CompanyScreenLevel:PersistentLevel' has LevelScriptBlueprint '/Game/OpeningSequence/CompanyScreenLevel.CompanyScreenLevel:PersistentLevel.CompanyScreenLevel' with GeneratedClass '/Game/OpeningSequence/CompanyScreenLevel.CompanyScreenLevel_C' with ClassGeneratedBy '/Game/OpeningSequence/CompanyScreenLevel.CompanyScreenLevel:PersistentLevel.CompanyScreenLevel'
+[2016.10.21-22.47.07:232][163]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/OpeningSequence/CompanyScreenLevel.CompanyScreenLevel:PersistentLevel' has LevelScriptBlueprint '/Game/OpeningSequence/CompanyScreenLevel.CompanyScreenLevel:PersistentLevel.CompanyScreenLevel' with GeneratedClass '/Game/OpeningSequence/CompanyScreenLevel.CompanyScreenLevel_C' with ClassGeneratedBy '/Game/OpeningSequence/CompanyScreenLevel.CompanyScreenLevel:PersistentLevel.CompanyScreenLevel'
+[2016.10.21-22.47.07:265][163]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/OpeningSequence/CompanyScreenLevel.CompanyScreenLevel:PersistentLevel' has LevelScriptBlueprint '/Game/OpeningSequence/CompanyScreenLevel.CompanyScreenLevel:PersistentLevel.CompanyScreenLevel' with GeneratedClass '/Game/OpeningSequence/CompanyScreenLevel.CompanyScreenLevel_C' with ClassGeneratedBy '/Game/OpeningSequence/CompanyScreenLevel.CompanyScreenLevel:PersistentLevel.CompanyScreenLevel'
+[2016.10.21-22.48.14:438][456]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ZombiePunks-GameState" FILE="G:/smithKylie_PROJECTS/ZombiePunks/ZombiePunks/Content/ZombiePunks-GameState.uasset" SILENT=true
+[2016.10.21-22.48.14:456][456]LogSavePackage: Save=16.34ms
+[2016.10.21-22.48.14:456][456]LogSavePackage: Moving 'G:/smithKylie_PROJECTS/ZombiePunks/ZombiePunks/Saved/ZombiePunks-GameState366CC96B470C43F6C0211A9E5EBD8BA2.tmp' to 'G:/smithKylie_PROJECTS/ZombiePunks/ZombiePunks/Content/ZombiePunks-GameState.uasset'
+[2016.10.21-22.48.14:457][456]LogSavePackage:Display: Finished SavePackage G:/smithKylie_PROJECTS/ZombiePunks/ZombiePunks/Content/ZombiePunks-GameState.uasset
+[2016.10.21-22.48.23:268][ 84]Cmd: MAP LOAD FILE="G:/smithKylie_PROJECTS/ZombiePunks/ZombiePunks/Content/OpeningSequence/CompanyScreenLevel.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.10.21-22.48.23:268][ 84]LightingResults: New page: Lighting Build
+[2016.10.21-22.48.23:269][ 84]LoadErrors: New page: Loading map: CompanyScreenLevel.umap
+[2016.10.21-22.48.23:269][ 84]MapCheck: New page: Map Check
+[2016.10.21-22.48.23:269][ 84]LightingResults: New page: Lighting Build
+[2016.10.21-22.48.23:303][ 84]LogAIModule: Creating AISystem for world CompanyScreenLevel
+[2016.10.21-22.48.23:369][ 84]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.10.21-22.48.23:380][ 84]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.10.21-22.48.23:433][ 84]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 53.017ms to complete.
+[2016.10.21-22.48.23:433][ 84]LogFileHelpers: Loading map 'CompanyScreenLevel' took 0.167
+[2016.10.21-22.48.24:523][174]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/OpeningSequence/CompanyScreenLevel.CompanyScreenLevel:PersistentLevel' has LevelScriptBlueprint '/Game/OpeningSequence/CompanyScreenLevel.CompanyScreenLevel:PersistentLevel.CompanyScreenLevel' with GeneratedClass '/Game/OpeningSequence/CompanyScreenLevel.CompanyScreenLevel_C' with ClassGeneratedBy '/Game/OpeningSequence/CompanyScreenLevel.CompanyScreenLevel:PersistentLevel.CompanyScreenLevel'
+[2016.10.21-22.48.24:523][174]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.10.21-22.48.24:523][174]PIE: New page: PIE session: CompanyScreenLevel (Oct 21, 2016, 7:48:24 AM)
+[2016.10.21-22.48.24:523][174]LogPlayLevel: Creating play world package: /Game/OpeningSequence/UEDPIE_0_CompanyScreenLevel
+[2016.10.21-22.48.24:525][174]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001322s)
+[2016.10.21-22.48.24:525][174]LogAIModule: Creating AISystem for world CompanyScreenLevel
+[2016.10.21-22.48.24:525][174]LogPlayLevel: PIE: World Init took: (0.000812s)
+[2016.10.21-22.48.24:526][174]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/OpeningSequence/CompanyScreenLevel.CompanyScreenLevel to /Game/OpeningSequence/UEDPIE_0_CompanyScreenLevel.CompanyScreenLevel (0.002393s)
+[2016.10.21-22.48.24:551][174]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.10.21-22.48.24:557][174]LogInit: FAudioDevice initialized.
+[2016.10.21-22.48.24:622][174]LogWorld: Game class is 'ZombiePunks-GameMode_C'
+[2016.10.21-22.48.24:625][174]LogWorld: Bringing World /Game/OpeningSequence/UEDPIE_0_CompanyScreenLevel.CompanyScreenLevel up for play (max tick rate 0) at 2016.10.21-15.48.24
+[2016.10.21-22.48.24:625][174]LogWorld: Bringing up level for play took: 0.001161
+[2016.10.21-22.48.24:627][174]PIE: Info Play in editor start time for /Game/OpeningSequence/UEDPIE_0_CompanyScreenLevel -0.157
+[2016.10.21-22.48.24:628][174]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/OpeningSequence/CompanyScreenLevel.CompanyScreenLevel:PersistentLevel' has LevelScriptBlueprint '/Game/OpeningSequence/CompanyScreenLevel.CompanyScreenLevel:PersistentLevel.CompanyScreenLevel' with GeneratedClass '/Game/OpeningSequence/CompanyScreenLevel.CompanyScreenLevel_C' with ClassGeneratedBy '/Game/OpeningSequence/CompanyScreenLevel.CompanyScreenLevel:PersistentLevel.CompanyScreenLevel'
+[2016.10.21-22.48.33:043][ 97]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/OpeningSequence/CompanyScreenLevel.CompanyScreenLevel:PersistentLevel' has LevelScriptBlueprint '/Game/OpeningSequence/CompanyScreenLevel.CompanyScreenLevel:PersistentLevel.CompanyScreenLevel' with GeneratedClass '/Game/OpeningSequence/CompanyScreenLevel.CompanyScreenLevel_C' with ClassGeneratedBy '/Game/OpeningSequence/CompanyScreenLevel.CompanyScreenLevel:PersistentLevel.CompanyScreenLevel'
+[2016.10.21-22.48.33:076][ 97]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/OpeningSequence/CompanyScreenLevel.CompanyScreenLevel:PersistentLevel' has LevelScriptBlueprint '/Game/OpeningSequence/CompanyScreenLevel.CompanyScreenLevel:PersistentLevel.CompanyScreenLevel' with GeneratedClass '/Game/OpeningSequence/CompanyScreenLevel.CompanyScreenLevel_C' with ClassGeneratedBy '/Game/OpeningSequence/CompanyScreenLevel.CompanyScreenLevel:PersistentLevel.CompanyScreenLevel'
+[2016.10.21-22.48.34:222][151]LogAIModule: Creating AISystem for world TitleScreenLevel
+[2016.10.21-22.48.34:245][151]Cmd: MAP LOAD FILE="G:/smithKylie_PROJECTS/ZombiePunks/ZombiePunks/Content/OpeningSequence/TitleScreenLevel.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.10.21-22.48.34:245][151]LightingResults: New page: Lighting Build
+[2016.10.21-22.48.34:246][151]LoadErrors: New page: Loading map: TitleScreenLevel.umap
+[2016.10.21-22.48.34:246][151]MapCheck: New page: Map Check
+[2016.10.21-22.48.34:246][151]LightingResults: New page: Lighting Build
+[2016.10.21-22.48.34:333][151]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.10.21-22.48.34:342][151]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.10.21-22.48.34:395][151]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 53.173ms to complete.
+[2016.10.21-22.48.34:395][151]LogFileHelpers: Loading map 'TitleScreenLevel' took 0.151
+[2016.10.21-22.48.35:442][236]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/OpeningSequence/TitleScreenLevel.TitleScreenLevel:PersistentLevel' has LevelScriptBlueprint '/Game/OpeningSequence/TitleScreenLevel.TitleScreenLevel:PersistentLevel.TitleScreenLevel' with GeneratedClass '/Game/OpeningSequence/TitleScreenLevel.TitleScreenLevel_C' with ClassGeneratedBy '/Game/OpeningSequence/TitleScreenLevel.TitleScreenLevel:PersistentLevel.TitleScreenLevel'
+[2016.10.21-22.48.35:443][236]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.10.21-22.48.35:443][236]PIE: New page: PIE session: TitleScreenLevel (Oct 21, 2016, 7:48:35 AM)
+[2016.10.21-22.48.35:443][236]LogPlayLevel: Creating play world package: /Game/OpeningSequence/UEDPIE_0_TitleScreenLevel
+[2016.10.21-22.48.35:444][236]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001413s)
+[2016.10.21-22.48.35:445][236]LogAIModule: Creating AISystem for world TitleScreenLevel
+[2016.10.21-22.48.35:445][236]LogPlayLevel: PIE: World Init took: (0.000802s)
+[2016.10.21-22.48.35:445][236]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/OpeningSequence/TitleScreenLevel.TitleScreenLevel to /Game/OpeningSequence/UEDPIE_0_TitleScreenLevel.TitleScreenLevel (0.002476s)
+[2016.10.21-22.48.35:466][236]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.10.21-22.48.35:473][236]LogInit: FAudioDevice initialized.
+[2016.10.21-22.48.35:534][236]LogWorld: Game class is 'ZombiePunks-GameMode_C'
+[2016.10.21-22.48.35:536][236]LogWorld: Bringing World /Game/OpeningSequence/UEDPIE_0_TitleScreenLevel.TitleScreenLevel up for play (max tick rate 0) at 2016.10.21-15.48.35
+[2016.10.21-22.48.35:537][236]LogWorld: Bringing up level for play took: 0.001106
+[2016.10.21-22.48.35:539][236]PIE: Info Play in editor start time for /Game/OpeningSequence/UEDPIE_0_TitleScreenLevel 0.753
+[2016.10.21-22.48.35:539][236]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/OpeningSequence/TitleScreenLevel.TitleScreenLevel:PersistentLevel' has LevelScriptBlueprint '/Game/OpeningSequence/TitleScreenLevel.TitleScreenLevel:PersistentLevel.TitleScreenLevel' with GeneratedClass '/Game/OpeningSequence/TitleScreenLevel.TitleScreenLevel_C' with ClassGeneratedBy '/Game/OpeningSequence/TitleScreenLevel.TitleScreenLevel:PersistentLevel.TitleScreenLevel'
+[2016.10.21-22.48.42:468][996]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/OpeningSequence/TitleScreenLevel.TitleScreenLevel:PersistentLevel' has LevelScriptBlueprint '/Game/OpeningSequence/TitleScreenLevel.TitleScreenLevel:PersistentLevel.TitleScreenLevel' with GeneratedClass '/Game/OpeningSequence/TitleScreenLevel.TitleScreenLevel_C' with ClassGeneratedBy '/Game/OpeningSequence/TitleScreenLevel.TitleScreenLevel:PersistentLevel.TitleScreenLevel'
+[2016.10.21-22.48.42:499][996]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/OpeningSequence/TitleScreenLevel.TitleScreenLevel:PersistentLevel' has LevelScriptBlueprint '/Game/OpeningSequence/TitleScreenLevel.TitleScreenLevel:PersistentLevel.TitleScreenLevel' with GeneratedClass '/Game/OpeningSequence/TitleScreenLevel.TitleScreenLevel_C' with ClassGeneratedBy '/Game/OpeningSequence/TitleScreenLevel.TitleScreenLevel:PersistentLevel.TitleScreenLevel'
+[2016.10.21-22.49.30:233][711]BlueprintLog: New page: Compile TitleScreenBP
+[2016.10.21-22.49.30:346][711]BlueprintEditorCompileResults: Info [6740.08] Compile of TitleScreenBP successful! [in 112 ms] (/Game/OpeningSequence/TitleScreenBP.TitleScreenBP)
+[2016.10.21-22.49.30:838][736]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/OpeningSequence/TitleScreenBP" FILE="G:/smithKylie_PROJECTS/ZombiePunks/ZombiePunks/Content/OpeningSequence/TitleScreenBP.uasset" SILENT=true
+[2016.10.21-22.49.30:860][736]LogSavePackage: Save=20.83ms
+[2016.10.21-22.49.30:860][736]LogSavePackage: Moving 'G:/smithKylie_PROJECTS/ZombiePunks/ZombiePunks/Saved/TitleScreenBPC918B92D408F1ECA4DFBE89BAAAE2396.tmp' to 'G:/smithKylie_PROJECTS/ZombiePunks/ZombiePunks/Content/OpeningSequence/TitleScreenBP.uasset'
+[2016.10.21-22.49.30:861][736]LogSavePackage:Display: Finished SavePackage G:/smithKylie_PROJECTS/ZombiePunks/ZombiePunks/Content/OpeningSequence/TitleScreenBP.uasset
+[2016.10.21-22.49.34:873][  0]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/OpeningSequence/TitleScreenLevel.TitleScreenLevel:PersistentLevel' has LevelScriptBlueprint '/Game/OpeningSequence/TitleScreenLevel.TitleScreenLevel:PersistentLevel.TitleScreenLevel' with GeneratedClass '/Game/OpeningSequence/TitleScreenLevel.TitleScreenLevel_C' with ClassGeneratedBy '/Game/OpeningSequence/TitleScreenLevel.TitleScreenLevel:PersistentLevel.TitleScreenLevel'
+[2016.10.21-22.49.34:873][  0]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.10.21-22.49.34:873][  0]PIE: New page: PIE session: TitleScreenLevel (Oct 21, 2016, 7:49:34 AM)
+[2016.10.21-22.49.34:873][  0]LogPlayLevel: Creating play world package: /Game/OpeningSequence/UEDPIE_0_TitleScreenLevel
+[2016.10.21-22.49.34:875][  0]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001339s)
+[2016.10.21-22.49.34:875][  0]LogAIModule: Creating AISystem for world TitleScreenLevel
+[2016.10.21-22.49.34:875][  0]LogPlayLevel: PIE: World Init took: (0.000811s)
+[2016.10.21-22.49.34:876][  0]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/OpeningSequence/TitleScreenLevel.TitleScreenLevel to /Game/OpeningSequence/UEDPIE_0_TitleScreenLevel.TitleScreenLevel (0.002637s)
+[2016.10.21-22.49.34:900][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.10.21-22.49.34:906][  0]LogInit: FAudioDevice initialized.
+[2016.10.21-22.49.34:966][  0]LogWorld: Game class is 'ZombiePunks-GameMode_C'
+[2016.10.21-22.49.34:968][  0]LogWorld: Bringing World /Game/OpeningSequence/UEDPIE_0_TitleScreenLevel.TitleScreenLevel up for play (max tick rate 0) at 2016.10.21-15.49.34
+[2016.10.21-22.49.34:968][  0]LogWorld: Bringing up level for play took: 0.001130
+[2016.10.21-22.49.34:975][  0]LogBlueprintUserMessages: [TitleScreenBP_C_1] Title Screen Loaded
+[2016.10.21-22.49.34:976][  0]PIE: Info Play in editor start time for /Game/OpeningSequence/UEDPIE_0_TitleScreenLevel 0.186
+[2016.10.21-22.49.34:976][  0]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/OpeningSequence/TitleScreenLevel.TitleScreenLevel:PersistentLevel' has LevelScriptBlueprint '/Game/OpeningSequence/TitleScreenLevel.TitleScreenLevel:PersistentLevel.TitleScreenLevel' with GeneratedClass '/Game/OpeningSequence/TitleScreenLevel.TitleScreenLevel_C' with ClassGeneratedBy '/Game/OpeningSequence/TitleScreenLevel.TitleScreenLevel:PersistentLevel.TitleScreenLevel'
+[2016.10.21-22.49.38:282][356]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/OpeningSequence/TitleScreenLevel.TitleScreenLevel:PersistentLevel' has LevelScriptBlueprint '/Game/OpeningSequence/TitleScreenLevel.TitleScreenLevel:PersistentLevel.TitleScreenLevel' with GeneratedClass '/Game/OpeningSequence/TitleScreenLevel.TitleScreenLevel_C' with ClassGeneratedBy '/Game/OpeningSequence/TitleScreenLevel.TitleScreenLevel:PersistentLevel.TitleScreenLevel'
+[2016.10.21-22.49.38:314][356]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/OpeningSequence/TitleScreenLevel.TitleScreenLevel:PersistentLevel' has LevelScriptBlueprint '/Game/OpeningSequence/TitleScreenLevel.TitleScreenLevel:PersistentLevel.TitleScreenLevel' with GeneratedClass '/Game/OpeningSequence/TitleScreenLevel.TitleScreenLevel_C' with ClassGeneratedBy '/Game/OpeningSequence/TitleScreenLevel.TitleScreenLevel:PersistentLevel.TitleScreenLevel'
+[2016.10.21-22.49.39:158][414]LogAIModule: Creating AISystem for world CompanyScreenLevel
+[2016.10.21-22.49.39:181][414]Cmd: MAP LOAD FILE="G:/smithKylie_PROJECTS/ZombiePunks/ZombiePunks/Content/OpeningSequence/CompanyScreenLevel.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.10.21-22.49.39:181][414]LightingResults: New page: Lighting Build
+[2016.10.21-22.49.39:182][414]LoadErrors: New page: Loading map: CompanyScreenLevel.umap
+[2016.10.21-22.49.39:182][414]MapCheck: New page: Map Check
+[2016.10.21-22.49.39:182][414]LightingResults: New page: Lighting Build
+[2016.10.21-22.49.39:268][414]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.10.21-22.49.39:277][414]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.10.21-22.49.39:331][414]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 53.686ms to complete.
+[2016.10.21-22.49.39:331][414]LogFileHelpers: Loading map 'CompanyScreenLevel' took 0.152
+[2016.10.21-22.49.40:280][489]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/OpeningSequence/CompanyScreenLevel.CompanyScreenLevel:PersistentLevel' has LevelScriptBlueprint '/Game/OpeningSequence/CompanyScreenLevel.CompanyScreenLevel:PersistentLevel.CompanyScreenLevel' with GeneratedClass '/Game/OpeningSequence/CompanyScreenLevel.CompanyScreenLevel_C' with ClassGeneratedBy '/Game/OpeningSequence/CompanyScreenLevel.CompanyScreenLevel:PersistentLevel.CompanyScreenLevel'
+[2016.10.21-22.49.40:280][489]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.10.21-22.49.40:280][489]PIE: New page: PIE session: CompanyScreenLevel (Oct 21, 2016, 7:49:40 AM)
+[2016.10.21-22.49.40:280][489]LogPlayLevel: Creating play world package: /Game/OpeningSequence/UEDPIE_0_CompanyScreenLevel
+[2016.10.21-22.49.40:281][489]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001315s)
+[2016.10.21-22.49.40:282][489]LogAIModule: Creating AISystem for world CompanyScreenLevel
+[2016.10.21-22.49.40:282][489]LogPlayLevel: PIE: World Init took: (0.000812s)
+[2016.10.21-22.49.40:282][489]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/OpeningSequence/CompanyScreenLevel.CompanyScreenLevel to /Game/OpeningSequence/UEDPIE_0_CompanyScreenLevel.CompanyScreenLevel (0.002387s)
+[2016.10.21-22.49.40:303][489]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.10.21-22.49.40:310][489]LogInit: FAudioDevice initialized.
+[2016.10.21-22.49.40:374][489]LogWorld: Game class is 'ZombiePunks-GameMode_C'
+[2016.10.21-22.49.40:376][489]LogWorld: Bringing World /Game/OpeningSequence/UEDPIE_0_CompanyScreenLevel.CompanyScreenLevel up for play (max tick rate 0) at 2016.10.21-15.49.40
+[2016.10.21-22.49.40:376][489]LogWorld: Bringing up level for play took: 0.001116
+[2016.10.21-22.49.40:378][489]PIE: Info Play in editor start time for /Game/OpeningSequence/UEDPIE_0_CompanyScreenLevel -0.411
+[2016.10.21-22.49.40:378][489]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/OpeningSequence/CompanyScreenLevel.CompanyScreenLevel:PersistentLevel' has LevelScriptBlueprint '/Game/OpeningSequence/CompanyScreenLevel.CompanyScreenLevel:PersistentLevel.CompanyScreenLevel' with GeneratedClass '/Game/OpeningSequence/CompanyScreenLevel.CompanyScreenLevel_C' with ClassGeneratedBy '/Game/OpeningSequence/CompanyScreenLevel.CompanyScreenLevel:PersistentLevel.CompanyScreenLevel'
+[2016.10.21-22.49.55:621][170]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/OpeningSequence/CompanyScreenLevel.CompanyScreenLevel:PersistentLevel' has LevelScriptBlueprint '/Game/OpeningSequence/CompanyScreenLevel.CompanyScreenLevel:PersistentLevel.CompanyScreenLevel' with GeneratedClass '/Game/OpeningSequence/CompanyScreenLevel.CompanyScreenLevel_C' with ClassGeneratedBy '/Game/OpeningSequence/CompanyScreenLevel.CompanyScreenLevel:PersistentLevel.CompanyScreenLevel'
+[2016.10.21-22.49.55:650][170]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/OpeningSequence/CompanyScreenLevel.CompanyScreenLevel:PersistentLevel' has LevelScriptBlueprint '/Game/OpeningSequence/CompanyScreenLevel.CompanyScreenLevel:PersistentLevel.CompanyScreenLevel' with GeneratedClass '/Game/OpeningSequence/CompanyScreenLevel.CompanyScreenLevel_C' with ClassGeneratedBy '/Game/OpeningSequence/CompanyScreenLevel.CompanyScreenLevel:PersistentLevel.CompanyScreenLevel'
+[2016.10.21-22.50.08:330][869]BlueprintLog: New page: Compile TitleScreenBP
+[2016.10.21-22.50.08:442][869]BlueprintEditorCompileResults: Info [6778.18] Compile of TitleScreenBP successful! [in 111 ms] (/Game/OpeningSequence/TitleScreenBP.TitleScreenBP)
+[2016.10.21-22.50.08:838][888]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/OpeningSequence/TitleScreenBP" FILE="G:/smithKylie_PROJECTS/ZombiePunks/ZombiePunks/Content/OpeningSequence/TitleScreenBP.uasset" SILENT=true
+[2016.10.21-22.50.08:859][888]LogSavePackage: Save=19.50ms
+[2016.10.21-22.50.08:859][888]LogSavePackage: Moving 'G:/smithKylie_PROJECTS/ZombiePunks/ZombiePunks/Saved/TitleScreenBPD2B4777D46BBE82AA5961A86EFA0FC6B.tmp' to 'G:/smithKylie_PROJECTS/ZombiePunks/ZombiePunks/Content/OpeningSequence/TitleScreenBP.uasset'
+[2016.10.21-22.50.08:860][888]LogSavePackage:Display: Finished SavePackage G:/smithKylie_PROJECTS/ZombiePunks/ZombiePunks/Content/OpeningSequence/TitleScreenBP.uasset
+[2016.10.21-22.53.07:285][852]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/OpeningSequence/TitleScreen" FILE="G:/smithKylie_PROJECTS/ZombiePunks/ZombiePunks/Content/OpeningSequence/TitleScreen.uasset" SILENT=true
+[2016.10.21-22.53.07:321][852]LogSavePackage: Save=35.11ms
+[2016.10.21-22.53.07:321][852]LogSavePackage: Moving 'G:/smithKylie_PROJECTS/ZombiePunks/ZombiePunks/Saved/TitleScreenE89356D4419F6D2BC0A131BAF13756B0.tmp' to 'G:/smithKylie_PROJECTS/ZombiePunks/ZombiePunks/Content/OpeningSequence/TitleScreen.uasset'
+[2016.10.21-22.53.07:321][852]LogSavePackage:Display: Finished SavePackage G:/smithKylie_PROJECTS/ZombiePunks/ZombiePunks/Content/OpeningSequence/TitleScreen.uasset
+[2016.10.21-22.54.41:650][710]LogEditorFactories: Performing atomic reimport of [G:/smithKylie_gameConcepts/TitleScreen_1024x1024.png]
+[2016.10.21-22.54.41:650][710]LogFactory: FactoryCreateFile: Texture2D with ReimportTextureFactory (0 0 G:/smithKylie_gameConcepts/TitleScreen_1024x1024.png)
+[2016.10.21-22.54.41:722][710]LogTexture:Display: Building textures: TitleScreen (BGRA8)
+[2016.10.21-22.54.42:019][710]LogTexture:Display: Building textures: TitleScreen (BGRA8)
+[2016.10.21-22.54.42:187][710]LogEditorFactories: -- imported successfully
+[2016.10.21-22.54.45:091][831]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/OpeningSequence/TitleScreen" FILE="G:/smithKylie_PROJECTS/ZombiePunks/ZombiePunks/Content/OpeningSequence/TitleScreen.uasset" SILENT=true
+[2016.10.21-22.54.45:097][831]LogTexture:Display: Building textures: TitleScreen (AutoDXT)
+[2016.10.21-22.54.46:583][831]LogSavePackage: Save=1488.97ms
+[2016.10.21-22.54.46:583][831]LogSavePackage: Moving 'G:/smithKylie_PROJECTS/ZombiePunks/ZombiePunks/Saved/TitleScreen6E1B41EA4B9D51844FCEF99164A59904.tmp' to 'G:/smithKylie_PROJECTS/ZombiePunks/ZombiePunks/Content/OpeningSequence/TitleScreen.uasset'
+[2016.10.21-22.54.46:584][831]LogSavePackage:Display: Finished SavePackage G:/smithKylie_PROJECTS/ZombiePunks/ZombiePunks/Content/OpeningSequence/TitleScreen.uasset
+[2016.10.21-22.55.50:801][719]BlueprintLog: New page: Compile TitleScreenBP
+[2016.10.21-22.55.50:940][719]BlueprintEditorCompileResults: Info [7120.65] Compile of TitleScreenBP successful! [in 138 ms] (/Game/OpeningSequence/TitleScreenBP.TitleScreenBP)
+[2016.10.21-22.55.52:346][771]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/OpeningSequence/TitleScreenBP" FILE="G:/smithKylie_PROJECTS/ZombiePunks/ZombiePunks/Content/OpeningSequence/TitleScreenBP.uasset" SILENT=true
+[2016.10.21-22.55.52:366][771]LogSavePackage: Save=18.44ms
+[2016.10.21-22.55.52:366][771]LogSavePackage: Moving 'G:/smithKylie_PROJECTS/ZombiePunks/ZombiePunks/Saved/TitleScreenBP313608094672E0426CA84C8D17D1228A.tmp' to 'G:/smithKylie_PROJECTS/ZombiePunks/ZombiePunks/Content/OpeningSequence/TitleScreenBP.uasset'
+[2016.10.21-22.55.52:367][771]LogSavePackage:Display: Finished SavePackage G:/smithKylie_PROJECTS/ZombiePunks/ZombiePunks/Content/OpeningSequence/TitleScreenBP.uasset
+[2016.10.21-22.56.00:869][ 71]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/OpeningSequence/LoadingScreen" FILE="G:/smithKylie_PROJECTS/ZombiePunks/ZombiePunks/Content/OpeningSequence/LoadingScreen.uasset" SILENT=true
+[2016.10.21-22.56.00:871][ 71]LogSavePackage: Save=0.81ms
+[2016.10.21-22.56.00:871][ 71]LogSavePackage: Moving 'G:/smithKylie_PROJECTS/ZombiePunks/ZombiePunks/Saved/LoadingScreen2D39C09844456B44FEFFC095D18F11A5.tmp' to 'G:/smithKylie_PROJECTS/ZombiePunks/ZombiePunks/Content/OpeningSequence/LoadingScreen.uasset'
+[2016.10.21-22.56.00:871][ 71]LogSavePackage:Display: Finished SavePackage G:/smithKylie_PROJECTS/ZombiePunks/ZombiePunks/Content/OpeningSequence/LoadingScreen.uasset
+[2016.10.21-22.56.00:874][ 71]Cmd: MAP LOAD FILE="G:/smithKylie_PROJECTS/ZombiePunks/ZombiePunks/Content/OpeningSequence/CompanyScreenLevel.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.10.21-22.56.00:874][ 71]LightingResults: New page: Lighting Build
+[2016.10.21-22.56.00:875][ 71]LoadErrors: New page: Loading map: CompanyScreenLevel.umap
+[2016.10.21-22.56.00:875][ 71]MapCheck: New page: Map Check
+[2016.10.21-22.56.00:875][ 71]LightingResults: New page: Lighting Build
+[2016.10.21-22.56.00:910][ 71]LogAIModule: Creating AISystem for world CompanyScreenLevel
+[2016.10.21-22.56.00:978][ 71]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.10.21-22.56.00:995][ 71]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.10.21-22.56.01:049][ 71]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 54.029ms to complete.
+[2016.10.21-22.56.01:050][ 71]LogFileHelpers: Loading map 'CompanyScreenLevel' took 0.177
+[2016.10.21-22.56.01:976][107]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/OpeningSequence/CompanyScreenLevel.CompanyScreenLevel:PersistentLevel' has LevelScriptBlueprint '/Game/OpeningSequence/CompanyScreenLevel.CompanyScreenLevel:PersistentLevel.CompanyScreenLevel' with GeneratedClass '/Game/OpeningSequence/CompanyScreenLevel.CompanyScreenLevel_C' with ClassGeneratedBy '/Game/OpeningSequence/CompanyScreenLevel.CompanyScreenLevel:PersistentLevel.CompanyScreenLevel'
+[2016.10.21-22.56.01:976][107]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.10.21-22.56.01:976][107]PIE: New page: PIE session: CompanyScreenLevel (Oct 21, 2016, 7:56:01 AM)
+[2016.10.21-22.56.01:976][107]LogPlayLevel: Creating play world package: /Game/OpeningSequence/UEDPIE_0_CompanyScreenLevel
+[2016.10.21-22.56.01:978][107]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001234s)
+[2016.10.21-22.56.01:978][107]LogAIModule: Creating AISystem for world CompanyScreenLevel
+[2016.10.21-22.56.01:978][107]LogPlayLevel: PIE: World Init took: (0.000761s)
+[2016.10.21-22.56.01:979][107]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/OpeningSequence/CompanyScreenLevel.CompanyScreenLevel to /Game/OpeningSequence/UEDPIE_0_CompanyScreenLevel.CompanyScreenLevel (0.002238s)
+[2016.10.21-22.56.02:001][107]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.10.21-22.56.02:008][107]LogInit: FAudioDevice initialized.
+[2016.10.21-22.56.02:072][107]LogWorld: Game class is 'ZombiePunks-GameMode_C'
+[2016.10.21-22.56.02:074][107]LogWorld: Bringing World /Game/OpeningSequence/UEDPIE_0_CompanyScreenLevel.CompanyScreenLevel up for play (max tick rate 0) at 2016.10.21-15.56.02
+[2016.10.21-22.56.02:074][107]LogWorld: Bringing up level for play took: 0.001145
+[2016.10.21-22.56.02:077][107]PIE: Info Play in editor start time for /Game/OpeningSequence/UEDPIE_0_CompanyScreenLevel -0.737
+[2016.10.21-22.56.02:077][107]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/OpeningSequence/CompanyScreenLevel.CompanyScreenLevel:PersistentLevel' has LevelScriptBlueprint '/Game/OpeningSequence/CompanyScreenLevel.CompanyScreenLevel:PersistentLevel.CompanyScreenLevel' with GeneratedClass '/Game/OpeningSequence/CompanyScreenLevel.CompanyScreenLevel_C' with ClassGeneratedBy '/Game/OpeningSequence/CompanyScreenLevel.CompanyScreenLevel:PersistentLevel.CompanyScreenLevel'
+[2016.10.21-22.56.18:374][838]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/OpeningSequence/CompanyScreenLevel.CompanyScreenLevel:PersistentLevel' has LevelScriptBlueprint '/Game/OpeningSequence/CompanyScreenLevel.CompanyScreenLevel:PersistentLevel.CompanyScreenLevel' with GeneratedClass '/Game/OpeningSequence/CompanyScreenLevel.CompanyScreenLevel_C' with ClassGeneratedBy '/Game/OpeningSequence/CompanyScreenLevel.CompanyScreenLevel:PersistentLevel.CompanyScreenLevel'
+[2016.10.21-22.56.18:407][838]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/OpeningSequence/CompanyScreenLevel.CompanyScreenLevel:PersistentLevel' has LevelScriptBlueprint '/Game/OpeningSequence/CompanyScreenLevel.CompanyScreenLevel:PersistentLevel.CompanyScreenLevel' with GeneratedClass '/Game/OpeningSequence/CompanyScreenLevel.CompanyScreenLevel_C' with ClassGeneratedBy '/Game/OpeningSequence/CompanyScreenLevel.CompanyScreenLevel:PersistentLevel.CompanyScreenLevel'
+[2016.10.21-22.56.41:840][720]Cmd: QUIT_EDITOR
+[2016.10.21-22.56.41:908][720]LogExit: Preparing to exit.
+[2016.10.21-22.56.42:525][720]LogExit: Editor shut down
+[2016.10.21-22.56.42:525][720]LogExit: Transaction tracking system shut down
+[2016.10.21-22.56.42:734][720]LogObj: Freed 0b from 0 cluster array pools.
+[2016.10.21-22.56.42:734][720]LogExit: Object subsystem successfully closed.
+[2016.10.21-22.56.42:751][720]LogD3D11RHI: Shutdown
+[2016.10.21-22.56.42:751][720]LogD3D11RHI: CleanupD3DDevice
+[2016.10.21-22.56.42:848][720]LogD3D11RHI: ~FD3D11DynamicRHI
+[2016.10.21-22.56.42:870][720]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (219)
+[2016.10.21-22.56.42:870][720]LogModuleManager: Shutting down and abandoning module WorldBrowser (218)
+[2016.10.21-22.56.42:870][720]LogModuleManager: Shutting down and abandoning module SequencerWidgets (217)
+[2016.10.21-22.56.42:870][720]LogModuleManager: Shutting down and abandoning module TextureEditor (216)
+[2016.10.21-22.56.42:870][720]LogModuleManager: Shutting down and abandoning module BlueprintGraph (215)
+[2016.10.21-22.56.42:870][720]LogModuleManager: Shutting down and abandoning module NewLevelDialog (214)
+[2016.10.21-22.56.42:870][720]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (213)
+[2016.10.21-22.56.42:870][720]LogModuleManager: Shutting down and abandoning module CrashTracker (212)
+[2016.10.21-22.56.42:870][720]LogModuleManager: Shutting down and abandoning module SceneOutliner (211)
+[2016.10.21-22.56.42:870][720]LogModuleManager: Shutting down and abandoning module WidgetCarousel (210)
+[2016.10.21-22.56.42:870][720]LogModuleManager: Shutting down and abandoning module AddContentDialog (209)
+[2016.10.21-22.56.42:872][720]LogModuleManager: Shutting down and abandoning module GameplayTags (208)
+[2016.10.21-22.56.42:872][720]LogModuleManager: Shutting down and abandoning module EditorWidgets (207)
+[2016.10.21-22.56.42:872][720]LogModuleManager: Shutting down and abandoning module CollectionManager (206)
+[2016.10.21-22.56.42:872][720]LogModuleManager: Shutting down and abandoning module StatsViewer (205)
+[2016.10.21-22.56.42:872][720]LogModuleManager: Shutting down and abandoning module FoliageEdit (204)
+[2016.10.21-22.56.42:872][720]LogModuleManager: Shutting down and abandoning module LandscapeEditor (203)
+[2016.10.21-22.56.42:872][720]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (202)
+[2016.10.21-22.56.42:872][720]LogModuleManager: Shutting down and abandoning module ActorPickerMode (201)
+[2016.10.21-22.56.42:872][720]LogModuleManager: Shutting down and abandoning module GeometryMode (200)
+[2016.10.21-22.56.42:872][720]LogModuleManager: Shutting down and abandoning module TextureAlignMode (199)
+[2016.10.21-22.56.42:872][720]LogModuleManager: Shutting down and abandoning module BspMode (198)
+[2016.10.21-22.56.42:872][720]LogModuleManager: Shutting down and abandoning module HardwareSurvey (197)
+[2016.10.21-22.56.42:872][720]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (196)
+[2016.10.21-22.56.42:873][720]LogModuleManager: Shutting down and abandoning module SequenceRecorder (195)
+[2016.10.21-22.56.42:873][720]LogModuleManager: Shutting down and abandoning module AutomationWorker (194)
+[2016.10.21-22.56.42:873][720]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (193)
+[2016.10.21-22.56.42:873][720]LogModuleManager: Shutting down and abandoning module PlacementMode (192)
+[2016.10.21-22.56.42:873][720]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (191)
+[2016.10.21-22.56.42:873][720]LogModuleManager: Shutting down and abandoning module CharacterAI (190)
+[2016.10.21-22.56.42:873][720]LogModuleManager: Shutting down and abandoning module SmartSnapping (189)
+[2016.10.21-22.56.42:873][720]LogModuleManager: Shutting down and abandoning module SessionServices (188)
+[2016.10.21-22.56.42:873][720]LogModuleManager: Shutting down and abandoning module ViewportSnapping (187)
+[2016.10.21-22.56.42:873][720]LogModuleManager: Shutting down and abandoning module LogVisualizer (186)
+[2016.10.21-22.56.42:873][720]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (185)
+[2016.10.21-22.56.42:873][720]LogModuleManager: Shutting down and abandoning module IntroTutorials (184)
+[2016.10.21-22.56.42:873][720]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (183)
+[2016.10.21-22.56.42:873][720]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (182)
+[2016.10.21-22.56.42:873][720]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (181)
+[2016.10.21-22.56.42:873][720]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (180)
+[2016.10.21-22.56.43:353][720]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (179)
+[2016.10.21-22.56.43:353][720]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (178)
+[2016.10.21-22.56.43:353][720]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (177)
+[2016.10.21-22.56.43:353][720]LogModuleManager: Shutting down and abandoning module MergeActors (176)
+[2016.10.21-22.56.43:353][720]LogModuleManager: Shutting down and abandoning module SizeMap (175)
+[2016.10.21-22.56.43:353][720]LogModuleManager: Shutting down and abandoning module TreeMap (174)
+[2016.10.21-22.56.43:353][720]LogModuleManager: Shutting down and abandoning module ReferenceViewer (173)
+[2016.10.21-22.56.43:353][720]LogModuleManager: Shutting down and abandoning module LocalizationService (172)
+[2016.10.21-22.56.43:353][720]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (171)
+[2016.10.21-22.56.43:353][720]LogModuleManager: Shutting down and abandoning module HardwareTargeting (170)
+[2016.10.21-22.56.43:353][720]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (169)
+[2016.10.21-22.56.43:353][720]LogModuleManager: Shutting down and abandoning module UndoHistory (168)
+[2016.10.21-22.56.43:353][720]LogModuleManager: Shutting down and abandoning module UserFeedback (167)
+[2016.10.21-22.56.43:353][720]LogModuleManager: Shutting down and abandoning module XmlParser (166)
+[2016.10.21-22.56.43:353][720]LogModuleManager: Shutting down and abandoning module Blutility (165)
+[2016.10.21-22.56.43:353][720]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (164)
+[2016.10.21-22.56.43:354][720]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (163)
+[2016.10.21-22.56.43:354][720]LogModuleManager: Shutting down and abandoning module InputBindingEditor (162)
+[2016.10.21-22.56.43:354][720]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (161)
+[2016.10.21-22.56.43:354][720]LogModuleManager: Shutting down and abandoning module SettingsEditor (160)
+[2016.10.21-22.56.43:354][720]LogModuleManager: Shutting down and abandoning module ProjectLauncher (159)
+[2016.10.21-22.56.43:354][720]LogModuleManager: Shutting down and abandoning module SessionFrontend (158)
+[2016.10.21-22.56.43:354][720]LogModuleManager: Shutting down and abandoning module ProfilerClient (157)
+[2016.10.21-22.56.43:354][720]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (156)
+[2016.10.21-22.56.43:354][720]LogModuleManager: Shutting down and abandoning module DeviceManager (155)
+[2016.10.21-22.56.43:404][720]LogModuleManager: Shutting down and abandoning module AutomationController (154)
+[2016.10.21-22.56.43:404][720]LogModuleManager: Shutting down and abandoning module AutomationWindow (153)
+[2016.10.21-22.56.43:404][720]LogModuleManager: Shutting down and abandoning module Layers (152)
+[2016.10.21-22.56.43:404][720]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (151)
+[2016.10.21-22.56.43:404][720]LogModuleManager: Shutting down and abandoning module DetailCustomizations (150)
+[2016.10.21-22.56.43:404][720]LogModuleManager: Shutting down and abandoning module PackagesDialog (149)
+[2016.10.21-22.56.43:404][720]LogModuleManager: Shutting down and abandoning module Persona (148)
+[2016.10.21-22.56.43:404][720]LogModuleManager: Shutting down and abandoning module Kismet (147)
+[2016.10.21-22.56.43:404][720]LogModuleManager: Shutting down and abandoning module GraphEditor (146)
+[2016.10.21-22.56.43:404][720]LogModuleManager: Shutting down and abandoning module ClassViewer (145)
+[2016.10.21-22.56.43:406][720]LogModuleManager: Shutting down and abandoning module Toolbox (144)
+[2016.10.21-22.56.43:406][720]LogModuleManager: Shutting down and abandoning module ModuleUI (143)
+[2016.10.21-22.56.43:406][720]LogModuleManager: Shutting down and abandoning module MovieSceneTools (142)
+[2016.10.21-22.56.43:406][720]LogModuleManager: Shutting down and abandoning module OutputLog (141)
+[2016.10.21-22.56.43:406][720]LogModuleManager: Shutting down and abandoning module GammaUI (140)
+[2016.10.21-22.56.43:406][720]LogModuleManager: Shutting down and abandoning module Documentation (139)
+[2016.10.21-22.56.43:406][720]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (138)
+[2016.10.21-22.56.43:406][720]LogModuleManager: Shutting down and abandoning module AnalyticsET (137)
+[2016.10.21-22.56.43:406][720]LogModuleManager: Shutting down and abandoning module Analytics (136)
+[2016.10.21-22.56.43:406][720]LogModuleManager: Shutting down and abandoning module PortalServices (135)
+[2016.10.21-22.56.43:406][720]LogModuleManager: Shutting down and abandoning module PortalRpc (134)
+[2016.10.21-22.56.43:406][720]LogModuleManager: Shutting down and abandoning module MessagingRpc (133)
+[2016.10.21-22.56.43:406][720]LogModuleManager: Shutting down and abandoning module GameplayDebugger (132)
+[2016.10.21-22.56.43:406][720]LogModuleManager: Shutting down and abandoning module AITestSuite (131)
+[2016.10.21-22.56.43:406][720]LogModuleManager: Shutting down and abandoning module AIModule (130)
+[2016.10.21-22.56.43:406][720]LogModuleManager: Shutting down and abandoning module ProfilerService (129)
+[2016.10.21-22.56.43:586][720]LogModuleManager: Shutting down and abandoning module TaskGraph (128)
+[2016.10.21-22.56.43:587][720]LogModuleManager: Shutting down and abandoning module SlateRemote (127)
+[2016.10.21-22.56.43:587][720]LogModuleManager: Shutting down and abandoning module SteamVRController (126)
+[2016.10.21-22.56.43:587][720]LogModuleManager: Shutting down and abandoning module SteamVR (125)
+[2016.10.21-22.56.43:587][720]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (124)
+[2016.10.21-22.56.43:587][720]LogModuleManager: Shutting down and abandoning module OculusLibrary (123)
+[2016.10.21-22.56.43:587][720]LogModuleManager: Shutting down and abandoning module OculusInput (122)
+[2016.10.21-22.56.43:587][720]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (121)
+[2016.10.21-22.56.43:587][720]LogModuleManager: Shutting down and abandoning module CableComponent (120)
+[2016.10.21-22.56.43:587][720]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (119)
+[2016.10.21-22.56.43:587][720]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (118)
+[2016.10.21-22.56.43:587][720]LogModuleManager: Shutting down and abandoning module HTML5Networking (117)
+[2016.10.21-22.56.43:587][720]LogModuleManager: Shutting down and abandoning module SuperSearch (116)
+[2016.10.21-22.56.43:587][720]LogModuleManager: Shutting down and abandoning module SuperSearchEditor (115)
+[2016.10.21-22.56.43:587][720]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (114)
+[2016.10.21-22.56.43:587][720]LogModuleManager: Shutting down and abandoning module PluginBrowser (113)
+[2016.10.21-22.56.43:587][720]LogModuleManager: Shutting down and abandoning module EpicSurvey (112)
+[2016.10.21-22.56.43:587][720]LogModuleManager: Shutting down and abandoning module DesktopPlatform (111)
+[2016.10.21-22.56.43:587][720]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (110)
+[2016.10.21-22.56.43:587][720]LogModuleManager: Shutting down and abandoning module UObjectPlugin (109)
+[2016.10.21-22.56.43:587][720]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (108)
+[2016.10.21-22.56.43:587][720]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (107)
+[2016.10.21-22.56.43:587][720]LogModuleManager: Shutting down and abandoning module SourceControl (106)
+[2016.10.21-22.56.43:588][720]LogModuleManager: Shutting down and abandoning module GitSourceControl (105)
+[2016.10.21-22.56.43:588][720]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (104)
+[2016.10.21-22.56.43:588][720]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (103)
+[2016.10.21-22.56.43:588][720]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (102)
+[2016.10.21-22.56.43:588][720]LogModuleManager: Shutting down and abandoning module MeshPaint (101)
+[2016.10.21-22.56.43:588][720]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (100)
+[2016.10.21-22.56.43:588][720]LogModuleManager: Shutting down and abandoning module HotReload (99)
+[2016.10.21-22.56.43:588][720]LogModuleManager: Shutting down and abandoning module MainFrame (98)
+[2016.10.21-22.56.43:588][720]LogModuleManager: Shutting down and abandoning module LevelEditor (97)
+[2016.10.21-22.56.43:590][720]LogModuleManager: Shutting down and abandoning module ContentBrowser (96)
+[2016.10.21-22.56.43:591][720]LogModuleManager: Shutting down and abandoning module Paper2DEditor (95)
+[2016.10.21-22.56.43:591][720]LogModuleManager: Shutting down and abandoning module UdpMessaging (94)
+[2016.10.21-22.56.43:691][720]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (93)
+[2016.10.21-22.56.43:691][720]LogModuleManager: Shutting down and abandoning module Paper2D (92)
+[2016.10.21-22.56.43:691][720]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (91)
+[2016.10.21-22.56.43:691][720]LogModuleManager: Shutting down and abandoning module Media (90)
+[2016.10.21-22.56.43:691][720]LogModuleManager: Shutting down and abandoning module WmfMedia (89)
+[2016.10.21-22.56.43:691][720]LogModuleManager: Shutting down and abandoning module MediaAssets (88)
+[2016.10.21-22.56.43:691][720]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (87)
+[2016.10.21-22.56.43:692][720]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (86)
+[2016.10.21-22.56.43:692][720]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (85)
+[2016.10.21-22.56.43:692][720]LogModuleManager: Shutting down and abandoning module VREditor (84)
+[2016.10.21-22.56.43:692][720]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (83)
+[2016.10.21-22.56.43:692][720]LogModuleManager: Shutting down and abandoning module PropertyEditor (82)
+[2016.10.21-22.56.43:692][720]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (81)
+[2016.10.21-22.56.43:692][720]LogModuleManager: Shutting down and abandoning module FunctionalTesting (80)
+[2016.10.21-22.56.43:692][720]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (79)
+[2016.10.21-22.56.43:692][720]LogModuleManager: Shutting down and abandoning module Sequencer (78)
+[2016.10.21-22.56.43:692][720]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (77)
+[2016.10.21-22.56.43:692][720]LogModuleManager: Shutting down and abandoning module MessageLog (76)
+[2016.10.21-22.56.43:692][720]LogModuleManager: Shutting down and abandoning module AssetTools (75)
+[2016.10.21-22.56.43:692][720]LogModuleManager: Shutting down and abandoning module UMGEditor (74)
+[2016.10.21-22.56.43:692][720]LogModuleManager: Shutting down and abandoning module UMG (73)
+[2016.10.21-22.56.43:692][720]LogModuleManager: Shutting down and abandoning module SlateReflector (72)
+[2016.10.21-22.56.43:692][720]LogModuleManager: Shutting down and abandoning module Slate (71)
+[2016.10.21-22.56.43:692][720]LogModuleManager: Shutting down and abandoning module EditorStyle (70)
+[2016.10.21-22.56.43:697][720]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (69)
+[2016.10.21-22.56.43:697][720]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (68)
+[2016.10.21-22.56.43:697][720]LogModuleManager: Shutting down and abandoning module XAudio2 (67)
+[2016.10.21-22.56.43:697][720]LogModuleManager: Shutting down and abandoning module Networking (65)
+[2016.10.21-22.56.43:697][720]LogModuleManager: Shutting down and abandoning module Core (64)
+[2016.10.21-22.56.43:697][720]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (63)
+[2016.10.21-22.56.43:698][720]LogModuleManager: Shutting down and abandoning module AssetRegistry (62)
+[2016.10.21-22.56.43:815][720]LogModuleManager: Shutting down and abandoning module KismetCompiler (61)
+[2016.10.21-22.56.43:815][720]LogModuleManager: Shutting down and abandoning module PhysXFormats (60)
+[2016.10.21-22.56.43:815][720]LogModuleManager: Shutting down and abandoning module MeshUtilities (59)
+[2016.10.21-22.56.43:815][720]LogModuleManager: Shutting down and abandoning module DerivedDataCache (58)
+[2016.10.21-22.56.43:872][720]LogDerivedDataCache: Shutdown
+[2016.10.21-22.56.43:872][720]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (57)
+[2016.10.21-22.56.43:872][720]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (56)
+[2016.10.21-22.56.43:872][720]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (55)
+[2016.10.21-22.56.43:872][720]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (54)
+[2016.10.21-22.56.43:872][720]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (53)
+[2016.10.21-22.56.43:872][720]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (52)
+[2016.10.21-22.56.43:872][720]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (51)
+[2016.10.21-22.56.43:872][720]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (50)
+[2016.10.21-22.56.43:872][720]LogModuleManager: Shutting down and abandoning module ImageWrapper (49)
+[2016.10.21-22.56.43:872][720]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (48)
+[2016.10.21-22.56.43:872][720]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (47)
+[2016.10.21-22.56.43:872][720]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (46)
+[2016.10.21-22.56.43:872][720]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (45)
+[2016.10.21-22.56.43:872][720]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (44)
+[2016.10.21-22.56.43:872][720]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (43)
+[2016.10.21-22.56.43:873][720]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (42)
+[2016.10.21-22.56.43:873][720]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (41)
+[2016.10.21-22.56.43:873][720]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (40)
+[2016.10.21-22.56.43:873][720]LogModuleManager: Shutting down and abandoning module Messaging (39)
+[2016.10.21-22.56.43:873][720]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (38)
+[2016.10.21-22.56.43:873][720]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (37)
+[2016.10.21-22.56.43:873][720]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (36)
+[2016.10.21-22.56.43:873][720]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (35)
+[2016.10.21-22.56.43:873][720]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (34)
+[2016.10.21-22.56.43:873][720]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (33)
+[2016.10.21-22.56.43:873][720]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (32)
+[2016.10.21-22.56.43:873][720]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (31)
+[2016.10.21-22.56.43:873][720]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (30)
+[2016.10.21-22.56.43:873][720]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (29)
+[2016.10.21-22.56.43:873][720]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (28)
+[2016.10.21-22.56.43:873][720]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (27)
+[2016.10.21-22.56.43:873][720]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (26)
+[2016.10.21-22.56.43:873][720]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (25)
+[2016.10.21-22.56.43:873][720]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (24)
+[2016.10.21-22.56.43:873][720]LogModuleManager: Shutting down and abandoning module TargetPlatform (23)
+[2016.10.21-22.56.43:873][720]LogModuleManager: Shutting down and abandoning module InputCore (22)
+[2016.10.21-22.56.43:873][720]LogModuleManager: Shutting down and abandoning module Settings (21)
+[2016.10.21-22.56.43:873][720]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (19)
+[2016.10.21-22.56.43:873][720]LogModuleManager: Shutting down and abandoning module HTTP (18)
+[2016.10.21-22.56.46:875][720]LogModuleManager: Shutting down and abandoning module XMPP (17)
+[2016.10.21-22.56.46:875][720]LogModuleManager: Shutting down and abandoning module OculusRift (16)
+[2016.10.21-22.56.46:875][720]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (15)
+[2016.10.21-22.56.46:875][720]LogModuleManager: Shutting down and abandoning module TextureCompressor (14)
+[2016.10.21-22.56.46:875][720]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
+[2016.10.21-22.56.46:875][720]LogModuleManager: Shutting down and abandoning module Landscape (12)
+[2016.10.21-22.56.46:875][720]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
+[2016.10.21-22.56.46:878][720]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
+[2016.10.21-22.56.46:878][720]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
+[2016.10.21-22.56.46:878][720]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
+[2016.10.21-22.56.46:878][720]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2016.10.21-22.56.46:878][720]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2016.10.21-22.56.46:879][720]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2016.10.21-22.56.46:879][720]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2016.10.21-22.56.46:879][720]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2016.10.21-22.56.46:879][720]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2016.10.21-22.56.46:879][720]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2016.10.21-22.56.46:880][720]LogExit: Exiting.
+[2016.10.21-22.56.46:892][720]Log file closed, 10/21/16 15:56:46
