@@ -209,4 +209,37 @@ LogInit: Object subsystem initialized
 [2016.11.04-18.28.40:307][321]LogMemory: Process Virtual Memory: 703.31 MB used, 739.04 MB peak
 [2016.11.04-18.28.40:307][321]LogMemory: Physical Memory: 2639.93 MB used, 4094.49 MB total
 [2016.11.04-18.28.40:307][321]LogMemory: Virtual Memory: 1354.23 MB used, 8388608.00 MB total
-[2016.11
+[2016.11.04-18.28.40:307][321]LogMemory: 
+[2016.11.04-18.28.40:307][321]Allocator Stats for TBB: (not implemented)
+[2016.11.04-18.28.41:248][321]LogAIModule: Creating AISystem for world TitleScreenLevel
+[2016.11.04-18.28.41:249][321]LogWorld: Game class is 'ZombiePunks-GameMode_C'
+[2016.11.04-18.28.41:252][321]LogWorld: Bringing World /Game/OpeningSequence/UEDPIE_0_TitleScreenLevel.TitleScreenLevel up for play (max tick rate 3) at 2016.11.04-11.28.41
+[2016.11.04-18.28.41:253][321]LogWorld: Bringing up level for play took: 0.002287
+[2016.11.04-18.28.41:254][321]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2016.11.04-18.28.41:276][321]LogLoad: Took 1.034233 seconds to LoadMap(/Game/OpeningSequence/TitleScreenLevel)
+[2016.11.04-18.28.47:967][342]LogNet: Browse: /Game/E1M1
+[2016.11.04-18.28.47:968][342]LogLoad: LoadMap: /Game/E1M1
+[2016.11.04-18.28.47:985][342]Cmd: MEM
+[2016.11.04-18.28.48:000][342]LogMemory: Platform Memory Stats for Windows
+[2016.11.04-18.28.48:000][342]LogMemory: Process Physical Memory: 805.37 MB used, 805.38 MB peak
+[2016.11.04-18.28.48:000][342]LogMemory: Process Virtual Memory: 727.55 MB used, 739.04 MB peak
+[2016.11.04-18.28.48:000][342]LogMemory: Physical Memory: 2644.02 MB used, 4094.49 MB total
+[2016.11.04-18.28.48:000][342]LogMemory: Virtual Memory: 1378.42 MB used, 8388608.00 MB total
+[2016.11.04-18.28.48:000][342]LogMemory: 
+[2016.11.04-18.28.48:000][342]Allocator Stats for TBB: (not implemented)
+[2016.11.04-18.28.57:351][342]LogAIModule: Creating AISystem for world E1M1
+[2016.11.04-18.28.57:351][342]LogWorld: Game class is 'GameMode'
+[2016.11.04-18.28.57:988][342]LogWorld: Bringing World /Game/UEDPIE_0_E1M1.E1M1 up for play (max tick rate 3) at 2016.11.04-11.28.57
+[2016.11.04-18.28.57:994][342]LogWorld: Bringing up level for play took: 0.640629
+[2016.11.04-18.28.58:068][342]LogLoad: Took 10.099920 seconds to LoadMap(/Game/E1M1)
+[2016.11.04-18.29.02:520][472]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/OpeningSequence/CompanyScreenLevel.CompanyScreenLevel:PersistentLevel' has LevelScriptBlueprint '/Game/OpeningSequence/CompanyScreenLevel.CompanyScreenLevel:PersistentLevel.CompanyScreenLevel' with GeneratedClass '/Game/OpeningSequence/CompanyScreenLevel.CompanyScreenLevel_C' with ClassGeneratedBy '/Game/OpeningSequence/CompanyScreenLevel.CompanyScreenLevel:PersistentLevel.CompanyScreenLevel'
+[2016.11.04-18.29.02:685][472]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/OpeningSequence/CompanyScreenLevel.CompanyScreenLevel:PersistentLevel' has LevelScriptBlueprint '/Game/OpeningSequence/CompanyScreenLevel.CompanyScreenLevel:PersistentLevel.CompanyScreenLevel' with GeneratedClass '/Game/OpeningSequence/CompanyScreenLevel.CompanyScreenLevel_C' with ClassGeneratedBy '/Game/OpeningSequence/CompanyScreenLevel.CompanyScreenLevel:PersistentLevel.CompanyScreenLevel'
+[2016.11.04-18.29.08:619][119]LogContentBrowser: Native class hierarchy updated for 'TextureEditor' in 0.0007 seconds. Added 1 classes and 2 folders.
+[2016.11.04-18.30.09:311][405]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0013 seconds. Added 111 classes and 0 folders.
+[2016.11.04-18.31.02:155][797]LogTexture:Display: Building textures: TilePatine_N (BC5)
+[2016.11.04-18.31.02:292][797]LogTexture:Display: Building textures: TilePatine_D (AutoDXT)
+[2016.11.04-18.32.06:594][354]LogSavePackage: Save=211.81ms
+[2016.11.04-18.32.06:594][354]LogSavePackage: Moving '../../../../../../Users/Kylie/School/ZombiePunks/ZombiePunks/Saved/CompanyScreenLevel8DFC6E074B19BEA5D6E087A44438ADDD.tmp' to '../../../../../../Users/Kylie/School/ZombiePunks/ZombiePunks/Content/OpeningSequence/CompanyScreenLevel.umap'
+[2016.11.04-18.32.06:597][354]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Kylie/School/ZombiePunks/ZombiePunks/Content/OpeningSequence/CompanyScreenLevel.umap
+[2016.11.04-18.32.55:577][778]LogSavePackage: Save=121.19ms
+[2016.11.04-18.32.55:577][778]LogSavePackage: Moving '../../../../../../Users/Kylie/
